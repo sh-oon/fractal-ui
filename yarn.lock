@@ -492,7 +492,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@repo/hooks@workspace:packages/hooks":
+"@repo/hooks@workspace:*, @repo/hooks@workspace:packages/hooks":
   version: 0.0.0-use.local
   resolution: "@repo/hooks@workspace:packages/hooks"
   dependencies:
@@ -516,9 +516,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@repo/ui@npm:*, @repo/ui@workspace:packages/ui":
+"@repo/ui-emotion@workspace:*, @repo/ui-emotion@workspace:packages/ui/emotion":
   version: 0.0.0-use.local
-  resolution: "@repo/ui@workspace:packages/ui"
+  resolution: "@repo/ui-emotion@workspace:packages/ui/emotion"
   dependencies:
     "@repo/eslint-config": "npm:*"
     "@repo/typescript-config": "npm:*"
@@ -530,6 +530,22 @@ __metadata:
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
     typescript: "npm:5.7.3"
+  languageName: unknown
+  linkType: soft
+
+"@repo/ui-reset@workspace:packages/ui/reset":
+  version: 0.0.0-use.local
+  resolution: "@repo/ui-reset@workspace:packages/ui/reset"
+  dependencies:
+    pretendard: "npm:1.3.8"
+  languageName: unknown
+  linkType: soft
+
+"@repo/ui-tokens@workspace:packages/ui/tokens":
+  version: 0.0.0-use.local
+  resolution: "@repo/ui-tokens@workspace:packages/ui/tokens"
+  dependencies:
+    typescript: "npm:*"
   languageName: unknown
   linkType: soft
 
@@ -1571,8 +1587,10 @@ __metadata:
   resolution: "docs@workspace:apps/docs"
   dependencies:
     "@repo/eslint-config": "npm:*"
+    "@repo/hooks": "workspace:*"
     "@repo/typescript-config": "npm:*"
-    "@repo/ui": "npm:*"
+    "@repo/ui-emotion": "workspace:*"
+    "@repo/utils": "workspace:*"
     "@types/node": "npm:^22"
     "@types/react": "npm:19.0.8"
     "@types/react-dom": "npm:19.0.3"
@@ -3655,6 +3673,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pretendard@npm:1.3.8":
+  version: 1.3.8
+  resolution: "pretendard@npm:1.3.8"
+  checksum: 10c0/77e6412df9a2f183116066900db2dbd5a8095eac475f36f431133439dc1ef47e928d4674f0673cfd68e9b011695d6117938aed5c9f56b49d59db98c6535b5efc
+  languageName: node
+  linkType: hard
+
 "prettier@npm:^3.5.0":
   version: 3.5.1
   resolution: "prettier@npm:3.5.1"
@@ -4726,7 +4751,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.7.3, typescript@npm:^5.7.3":
+"typescript@npm:*, typescript@npm:5.7.3, typescript@npm:^5.7.3":
   version: 5.7.3
   resolution: "typescript@npm:5.7.3"
   bin:
@@ -4736,7 +4761,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.7.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A*#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.7.3#optional!builtin<compat/typescript>":
   version: 5.7.3
   resolution: "typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"
   bin:
@@ -4852,7 +4877,7 @@ __metadata:
   dependencies:
     "@repo/eslint-config": "npm:*"
     "@repo/typescript-config": "npm:*"
-    "@repo/ui": "npm:*"
+    "@repo/ui-emotion": "workspace:*"
     "@types/node": "npm:^22"
     "@types/react": "npm:19.0.8"
     "@types/react-dom": "npm:19.0.3"
