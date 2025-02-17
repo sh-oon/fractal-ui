@@ -9,9 +9,9 @@
 		"check-types": "tsc --noEmit"
 	},
 	"devDependencies": {
-		"@fractal/eslint-config": "*",
-		"@fractal/typescript-config": "*",
-		"@turbo/gen": "^2.4.0",
+		"@fractal/eslint-config": "workspace:*",
+		"@fractal/typescript-config": "workspace:*",
+		"@turbo/gen": "*",
 		"@types/node": "*",
 		"@types/react": "*",
 		"@types/react-dom": "*",

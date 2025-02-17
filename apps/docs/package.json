@@ -11,19 +11,19 @@
 		"check-types": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@fractal/hooks": "workspace:*",
-		"@fractal/ui-emotion": "workspace:*",
-		"@fractal/utils": "workspace:*",
-		"next": "^15.1.6",
-		"react": "^19.0.0",
-		"react-dom": "^19.0.0"
+		"next": "*",
+		"react": "*",
+		"react-dom": "*"
 	},
 	"devDependencies": {
-		"@fractal/eslint-config": "*",
-		"@fractal/typescript-config": "*",
-		"@types/node": "^22",
-		"@types/react": "19.0.8",
-		"@types/react-dom": "19.0.3",
+		"@fractal/eslint-config": "workspace:*",
+		"@fractal/hooks": "workspace:*",
+		"@fractal/typescript-config": "workspace:*",
+		"@fractal/ui-emotion": "workspace:*",
+		"@fractal/utils": "workspace:*",
+		"@types/node": "*",
+		"@types/react": "*",
+		"@types/react-dom": "*",
 		"eslint": "^9.20.0",
 		"eslint-config-prettier": "9.1.0",
 		"eslint-plugin-import": "2.29.1",
