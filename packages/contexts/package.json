@@ -1,5 +1,5 @@
 {
-	"name": "@repo/contexts",
+	"name": "@fractal/contexts",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
@@ -8,8 +8,8 @@
 		"check-types": "tsc --noEmit"
 	},
 	"devDependencies": {
-		"@repo/eslint-config": "*",
-		"@repo/typescript-config": "*",
+		"@fractal/eslint-config": "*",
+		"@fractal/typescript-config": "*",
 		"@turbo/gen": "^2.4.0",
 		"@types/node": "^22.13.0",
 		"@types/react": "19.0.8",

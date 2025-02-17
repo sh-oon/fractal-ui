@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { Nullable } from "@repo/utils";
+import { Nullable } from "@fractal/utils";
 
 import { IntersectionObserverOptions } from "./use-intersection-observer.types";
 export const useIntersectionObserver = <T extends HTMLElement>({

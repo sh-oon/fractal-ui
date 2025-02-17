@@ -1,5 +1,5 @@
 {
-	"name": "gamja-library",
+	"name": "fractal-ui",
 	"private": true,
 	"scripts": {
 		"build": "turbo run build",

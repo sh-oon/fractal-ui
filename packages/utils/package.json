@@ -1,5 +1,5 @@
 {
-	"name": "@repo/utils",
+	"name": "@fractal/utils",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
@@ -12,8 +12,8 @@
 		"./func": "./src/func/index.ts"
 	},
 	"devDependencies": {
-		"@repo/eslint-config": "*",
-		"@repo/typescript-config": "*",
+		"@fractal/eslint-config": "*",
+		"@fractal/typescript-config": "*",
 		"@types/node": "^22.13.0",
 		"eslint": "^9.20.0",
 		"typescript": "5.7.3"

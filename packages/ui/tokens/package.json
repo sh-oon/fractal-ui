@@ -1,5 +1,5 @@
 {
-	"name": "@repo/ui-tokens",
+	"name": "@fractal/ui-tokens",
 	"version": "1.0.0",
 	"main": "./src/index.ts",
 	"devDependencies": {

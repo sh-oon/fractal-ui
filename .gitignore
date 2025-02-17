@@ -38,3 +38,6 @@ yarn-error.log*
 *.pem
 
 doc/
+
+# node_modules
+*/node_modules

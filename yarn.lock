@@ -121,6 +121,111 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fractal/contexts@workspace:packages/contexts":
+  version: 0.0.0-use.local
+  resolution: "@fractal/contexts@workspace:packages/contexts"
+  dependencies:
+    "@fractal/eslint-config": "npm:*"
+    "@fractal/typescript-config": "npm:*"
+    "@turbo/gen": "npm:^2.4.0"
+    "@types/node": "npm:^22.13.0"
+    "@types/react": "npm:19.0.8"
+    "@types/react-dom": "npm:19.0.3"
+    eslint: "npm:^9.20.0"
+    react: "npm:^19.0.0"
+    react-dom: "npm:^19.0.0"
+    typescript: "npm:5.7.3"
+  languageName: unknown
+  linkType: soft
+
+"@fractal/eslint-config@npm:*, @fractal/eslint-config@workspace:*, @fractal/eslint-config@workspace:packages/eslint-config":
+  version: 0.0.0-use.local
+  resolution: "@fractal/eslint-config@workspace:packages/eslint-config"
+  dependencies:
+    "@eslint/js": "npm:^9.20.0"
+    "@next/eslint-plugin-next": "npm:^15.1.6"
+    eslint: "npm:^9.20.0"
+    eslint-config-prettier: "npm:^10.0.1"
+    eslint-plugin-only-warn: "npm:^1.1.0"
+    eslint-plugin-react: "npm:^7.37.4"
+    eslint-plugin-react-hooks: "npm:^5.1.0"
+    eslint-plugin-turbo: "npm:^2.4.0"
+    globals: "npm:^15.14.0"
+    typescript: "npm:^5.7.3"
+    typescript-eslint: "npm:^8.23.0"
+  languageName: unknown
+  linkType: soft
+
+"@fractal/hooks@workspace:*, @fractal/hooks@workspace:packages/hooks":
+  version: 0.0.0-use.local
+  resolution: "@fractal/hooks@workspace:packages/hooks"
+  dependencies:
+    "@fractal/eslint-config": "workspace:*"
+    "@fractal/typescript-config": "workspace:*"
+    "@fractal/utils": "workspace:*"
+    "@turbo/gen": "npm:^2.4.0"
+    "@types/node": "npm:^22.13.0"
+    "@types/react": "npm:19.0.8"
+    "@types/react-dom": "npm:19.0.3"
+    eslint: "npm:^9.20.0"
+    react: "npm:^19.0.0"
+    react-dom: "npm:^19.0.0"
+    typescript: "npm:5.7.3"
+  languageName: unknown
+  linkType: soft
+
+"@fractal/typescript-config@npm:*, @fractal/typescript-config@workspace:*, @fractal/typescript-config@workspace:packages/typescript-config":
+  version: 0.0.0-use.local
+  resolution: "@fractal/typescript-config@workspace:packages/typescript-config"
+  languageName: unknown
+  linkType: soft
+
+"@fractal/ui-emotion@workspace:*, @fractal/ui-emotion@workspace:packages/ui/emotion":
+  version: 0.0.0-use.local
+  resolution: "@fractal/ui-emotion@workspace:packages/ui/emotion"
+  dependencies:
+    "@fractal/eslint-config": "npm:*"
+    "@fractal/typescript-config": "npm:*"
+    "@turbo/gen": "npm:^2.4.0"
+    "@types/node": "npm:^22.13.0"
+    "@types/react": "npm:19.0.8"
+    "@types/react-dom": "npm:19.0.3"
+    eslint: "npm:^9.20.0"
+    react: "npm:^19.0.0"
+    react-dom: "npm:^19.0.0"
+    typescript: "npm:5.7.3"
+  languageName: unknown
+  linkType: soft
+
+"@fractal/ui-reset@workspace:packages/ui/reset":
+  version: 0.0.0-use.local
+  resolution: "@fractal/ui-reset@workspace:packages/ui/reset"
+  dependencies:
+    pretendard: "npm:1.3.8"
+  languageName: unknown
+  linkType: soft
+
+"@fractal/ui-tokens@workspace:packages/ui/tokens":
+  version: 0.0.0-use.local
+  resolution: "@fractal/ui-tokens@workspace:packages/ui/tokens"
+  dependencies:
+    typescript: "npm:*"
+  languageName: unknown
+  linkType: soft
+
+"@fractal/utils@workspace:*, @fractal/utils@workspace:packages/utils":
+  version: 0.0.0-use.local
+  resolution: "@fractal/utils@workspace:packages/utils"
+  dependencies:
+    "@fractal/eslint-config": "npm:*"
+    "@fractal/typescript-config": "npm:*"
+    "@types/node": "npm:^22.13.0"
+    dayjs: "npm:^1.11.13"
+    eslint: "npm:^9.20.0"
+    typescript: "npm:5.7.3"
+  languageName: unknown
+  linkType: soft
+
 "@humanfs/core@npm:^0.19.1":
   version: 0.19.1
   resolution: "@humanfs/core@npm:0.19.1"
@@ -456,111 +561,6 @@ __metadata:
   checksum: 10c0/db9de047c3bb9b51f9335a7bb46f4fcfb6829fb628318c12115fbaf7d369bfce71c15b103d1fc3b464812d936220ee9bc1c8f762d032c9f6be9acc99249095b1
   languageName: node
   linkType: hard
-
-"@repo/contexts@workspace:packages/contexts":
-  version: 0.0.0-use.local
-  resolution: "@repo/contexts@workspace:packages/contexts"
-  dependencies:
-    "@repo/eslint-config": "npm:*"
-    "@repo/typescript-config": "npm:*"
-    "@turbo/gen": "npm:^2.4.0"
-    "@types/node": "npm:^22.13.0"
-    "@types/react": "npm:19.0.8"
-    "@types/react-dom": "npm:19.0.3"
-    eslint: "npm:^9.20.0"
-    react: "npm:^19.0.0"
-    react-dom: "npm:^19.0.0"
-    typescript: "npm:5.7.3"
-  languageName: unknown
-  linkType: soft
-
-"@repo/eslint-config@npm:*, @repo/eslint-config@workspace:*, @repo/eslint-config@workspace:packages/eslint-config":
-  version: 0.0.0-use.local
-  resolution: "@repo/eslint-config@workspace:packages/eslint-config"
-  dependencies:
-    "@eslint/js": "npm:^9.20.0"
-    "@next/eslint-plugin-next": "npm:^15.1.6"
-    eslint: "npm:^9.20.0"
-    eslint-config-prettier: "npm:^10.0.1"
-    eslint-plugin-only-warn: "npm:^1.1.0"
-    eslint-plugin-react: "npm:^7.37.4"
-    eslint-plugin-react-hooks: "npm:^5.1.0"
-    eslint-plugin-turbo: "npm:^2.4.0"
-    globals: "npm:^15.14.0"
-    typescript: "npm:^5.7.3"
-    typescript-eslint: "npm:^8.23.0"
-  languageName: unknown
-  linkType: soft
-
-"@repo/hooks@workspace:*, @repo/hooks@workspace:packages/hooks":
-  version: 0.0.0-use.local
-  resolution: "@repo/hooks@workspace:packages/hooks"
-  dependencies:
-    "@repo/eslint-config": "workspace:*"
-    "@repo/typescript-config": "workspace:*"
-    "@repo/utils": "workspace:*"
-    "@turbo/gen": "npm:^2.4.0"
-    "@types/node": "npm:^22.13.0"
-    "@types/react": "npm:19.0.8"
-    "@types/react-dom": "npm:19.0.3"
-    eslint: "npm:^9.20.0"
-    react: "npm:^19.0.0"
-    react-dom: "npm:^19.0.0"
-    typescript: "npm:5.7.3"
-  languageName: unknown
-  linkType: soft
-
-"@repo/typescript-config@npm:*, @repo/typescript-config@workspace:*, @repo/typescript-config@workspace:packages/typescript-config":
-  version: 0.0.0-use.local
-  resolution: "@repo/typescript-config@workspace:packages/typescript-config"
-  languageName: unknown
-  linkType: soft
-
-"@repo/ui-emotion@workspace:*, @repo/ui-emotion@workspace:packages/ui/emotion":
-  version: 0.0.0-use.local
-  resolution: "@repo/ui-emotion@workspace:packages/ui/emotion"
-  dependencies:
-    "@repo/eslint-config": "npm:*"
-    "@repo/typescript-config": "npm:*"
-    "@turbo/gen": "npm:^2.4.0"
-    "@types/node": "npm:^22.13.0"
-    "@types/react": "npm:19.0.8"
-    "@types/react-dom": "npm:19.0.3"
-    eslint: "npm:^9.20.0"
-    react: "npm:^19.0.0"
-    react-dom: "npm:^19.0.0"
-    typescript: "npm:5.7.3"
-  languageName: unknown
-  linkType: soft
-
-"@repo/ui-reset@workspace:packages/ui/reset":
-  version: 0.0.0-use.local
-  resolution: "@repo/ui-reset@workspace:packages/ui/reset"
-  dependencies:
-    pretendard: "npm:1.3.8"
-  languageName: unknown
-  linkType: soft
-
-"@repo/ui-tokens@workspace:packages/ui/tokens":
-  version: 0.0.0-use.local
-  resolution: "@repo/ui-tokens@workspace:packages/ui/tokens"
-  dependencies:
-    typescript: "npm:*"
-  languageName: unknown
-  linkType: soft
-
-"@repo/utils@workspace:*, @repo/utils@workspace:packages/utils":
-  version: 0.0.0-use.local
-  resolution: "@repo/utils@workspace:packages/utils"
-  dependencies:
-    "@repo/eslint-config": "npm:*"
-    "@repo/typescript-config": "npm:*"
-    "@types/node": "npm:^22.13.0"
-    dayjs: "npm:^1.11.13"
-    eslint: "npm:^9.20.0"
-    typescript: "npm:5.7.3"
-  languageName: unknown
-  linkType: soft
 
 "@swc/counter@npm:0.1.3":
   version: 0.1.3
@@ -1586,11 +1586,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "docs@workspace:apps/docs"
   dependencies:
-    "@repo/eslint-config": "npm:*"
-    "@repo/hooks": "workspace:*"
-    "@repo/typescript-config": "npm:*"
-    "@repo/ui-emotion": "workspace:*"
-    "@repo/utils": "workspace:*"
+    "@fractal/eslint-config": "npm:*"
+    "@fractal/hooks": "workspace:*"
+    "@fractal/typescript-config": "npm:*"
+    "@fractal/ui-emotion": "workspace:*"
+    "@fractal/utils": "workspace:*"
     "@types/node": "npm:^22"
     "@types/react": "npm:19.0.8"
     "@types/react-dom": "npm:19.0.3"
@@ -2155,6 +2155,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fractal-ui@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "fractal-ui@workspace:."
+  dependencies:
+    prettier: "npm:^3.5.0"
+    turbo: "npm:^2.4.2"
+    typescript: "npm:5.7.3"
+  languageName: unknown
+  linkType: soft
+
 "fs-extra@npm:^10.1.0":
   version: 10.1.0
   resolution: "fs-extra@npm:10.1.0"
@@ -2200,16 +2210,6 @@ __metadata:
   checksum: 10c0/33e77fd29bddc2d9bb78ab3eb854c165909201f88c75faa8272e35899e2d35a8a642a15e7420ef945e1f64a9670d6aa3ec744106b2aa42be68ca5114025954ca
   languageName: node
   linkType: hard
-
-"gamja-library@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "gamja-library@workspace:."
-  dependencies:
-    prettier: "npm:^3.5.0"
-    turbo: "npm:^2.4.2"
-    typescript: "npm:5.7.3"
-  languageName: unknown
-  linkType: soft
 
 "get-intrinsic@npm:^1.2.4, get-intrinsic@npm:^1.2.5, get-intrinsic@npm:^1.2.6, get-intrinsic@npm:^1.2.7":
   version: 1.2.7
@@ -4875,9 +4875,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:apps/web"
   dependencies:
-    "@repo/eslint-config": "npm:*"
-    "@repo/typescript-config": "npm:*"
-    "@repo/ui-emotion": "workspace:*"
+    "@fractal/eslint-config": "npm:*"
+    "@fractal/typescript-config": "npm:*"
+    "@fractal/ui-emotion": "workspace:*"
     "@types/node": "npm:^22"
     "@types/react": "npm:19.0.8"
     "@types/react-dom": "npm:19.0.3"

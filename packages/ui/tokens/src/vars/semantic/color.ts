@@ -1,81 +1,81 @@
 export const text = {
-  primary: 'var(--ruler-semantic-color-text-primary)',
-  primaryHover: 'var(--ruler-semantic-color-text-primary-hover)',
-  primaryPressed: 'var(--ruler-semantic-color-text-primary-pressed)',
+	primary: "var(--fractal-semantic-color-text-primary)",
+	primaryHover: "var(--fractal-semantic-color-text-primary-hover)",
+	primaryPressed: "var(--fractal-semantic-color-text-primary-pressed)",
 
-  secondary: 'var(--ruler-semantic-color-text-secondary)',
-  secondaryHover: 'var(--ruler-semantic-color-text-secondary-hover)',
-  secondaryPressed: 'var(--ruler-semantic-color-text-secondary-pressed)',
+	secondary: "var(--fractal-semantic-color-text-secondary)",
+	secondaryHover: "var(--fractal-semantic-color-text-secondary-hover)",
+	secondaryPressed: "var(--fractal-semantic-color-text-secondary-pressed)",
 
-  tertiary: 'var(--ruler-semantic-color-text-tertiary)',
-  tertiaryHover: 'var(--ruler-semantic-color-text-tertiary-hover)',
-  tertiaryPressed: 'var(--ruler-semantic-color-text-tertiary-pressed)',
+	tertiary: "var(--fractal-semantic-color-text-tertiary)",
+	tertiaryHover: "var(--fractal-semantic-color-text-tertiary-hover)",
+	tertiaryPressed: "var(--fractal-semantic-color-text-tertiary-pressed)",
 
-  interactive: 'var(--ruler-semantic-color-text-interactive)',
-  interactiveHover: 'var(--ruler-semantic-color-text-interactive-hover)',
-  interactivePressed: 'var(--ruler-semantic-color-text-interactive-pressed)',
+	interactive: "var(--fractal-semantic-color-text-interactive)",
+	interactiveHover: "var(--fractal-semantic-color-text-interactive-hover)",
+	interactivePressed: "var(--fractal-semantic-color-text-interactive-pressed)",
 
-  accent: 'var(--ruler-semantic-color-text-accent)',
-  disabled: 'var(--ruler-semantic-color-text-disabled)',
+	accent: "var(--fractal-semantic-color-text-accent)",
+	disabled: "var(--fractal-semantic-color-text-disabled)",
 
-  negative: 'var(--ruler-semantic-color-text-negative)',
-  negativeHover: 'var(--ruler-semantic-color-text-negative-hover)',
-  negativePressed: 'var(--ruler-semantic-color-text-negative-pressed)',
+	negative: "var(--fractal-semantic-color-text-negative)",
+	negativeHover: "var(--fractal-semantic-color-text-negative-hover)",
+	negativePressed: "var(--fractal-semantic-color-text-negative-pressed)",
 
-  onColor: 'var(--ruler-semantic-color-text-on-color)',
+	onColor: "var(--fractal-semantic-color-text-on-color)",
 
-  onWhite: 'var(--ruler-semantic-color-text-on-white)',
-  onWhiteHover: 'var(--ruler-semantic-color-text-on-white-hover)',
-  onWhitePressed: 'var(--ruler-semantic-color-text-on-white-pressed)',
+	onWhite: "var(--fractal-semantic-color-text-on-white)",
+	onWhiteHover: "var(--fractal-semantic-color-text-on-white-hover)",
+	onWhitePressed: "var(--fractal-semantic-color-text-on-white-pressed)",
 };
 
 export const background = {
-  low: 'var(--ruler-semantic-color-background-low)',
-  default: 'var(--ruler-semantic-color-background-default)',
+	low: "var(--fractal-semantic-color-background-low)",
+	default: "var(--fractal-semantic-color-background-default)",
 };
 
 export const fill = {
-  primary: 'var(--ruler-semantic-color-fill-primary)',
-  primaryHover: 'var(--ruler-semantic-color-fill-primary-hover)',
-  primaryPressed: 'var(--ruler-semantic-color-fill-primary-pressed)',
+	primary: "var(--fractal-semantic-color-fill-primary)",
+	primaryHover: "var(--fractal-semantic-color-fill-primary-hover)",
+	primaryPressed: "var(--fractal-semantic-color-fill-primary-pressed)",
 
-  tertiary: 'var(--ruler-semantic-color-fill-tertiary)',
+	tertiary: "var(--fractal-semantic-color-fill-tertiary)",
 
-  silent: 'var(--ruler-semantic-color-fill-silent)',
-  silentHover: 'var(--ruler-semantic-color-fill-silent-hover)',
-  silentPressed: 'var(--ruler-semantic-color-fill-silent-pressed)',
+	silent: "var(--fractal-semantic-color-fill-silent)",
+	silentHover: "var(--fractal-semantic-color-fill-silent-hover)",
+	silentPressed: "var(--fractal-semantic-color-fill-silent-pressed)",
 
-  interactive: 'var(--ruler-semantic-color-fill-interactive)',
-  interactiveHover: 'var(--ruler-semantic-color-fill-interactive-hover)',
-  interactivePressed: 'var(--ruler-semantic-color-fill-interactive-pressed)',
+	interactive: "var(--fractal-semantic-color-fill-interactive)",
+	interactiveHover: "var(--fractal-semantic-color-fill-interactive-hover)",
+	interactivePressed: "var(--fractal-semantic-color-fill-interactive-pressed)",
 
-  accent: 'var(--ruler-semantic-color-fill-accent)',
-  disabled: 'var(--ruler-semantic-color-fill-disabled)',
+	accent: "var(--fractal-semantic-color-fill-accent)",
+	disabled: "var(--fractal-semantic-color-fill-disabled)",
 
-  negative: 'var(--ruler-semantic-color-fill-negative)',
-  negativeHover: 'var(--ruler-semantic-color-fill-negative-hover)',
-  negativePressed: 'var(--ruler-semantic-color-fill-negative-pressed)',
+	negative: "var(--fractal-semantic-color-fill-negative)",
+	negativeHover: "var(--fractal-semantic-color-fill-negative-hover)",
+	negativePressed: "var(--fractal-semantic-color-fill-negative-pressed)",
 
-  surfaceContents: 'var(--ruler-semantic-color-fill-surface-contents)',
-  surfaceFloating: 'var(--ruler-semantic-color-fill-surface-floating)',
-  surfaceDialog: 'var(--ruler-semantic-color-fill-surface-dialog)',
-  surfaceSheet: 'var(--ruler-semantic-color-fill-surface-sheet)',
-  surfaceBlack: 'var(--ruler-semantic-color-fill-surface-black)',
+	surfaceContents: "var(--fractal-semantic-color-fill-surface-contents)",
+	surfaceFloating: "var(--fractal-semantic-color-fill-surface-floating)",
+	surfaceDialog: "var(--fractal-semantic-color-fill-surface-dialog)",
+	surfaceSheet: "var(--fractal-semantic-color-fill-surface-sheet)",
+	surfaceBlack: "var(--fractal-semantic-color-fill-surface-black)",
 };
 
 export const border = {
-  dividerStrong: 'var(--ruler-semantic-color-border-divider-strong)',
-  divider: 'var(--ruler-semantic-color-border-divider)',
-  line: 'var(--ruler-semantic-color-border-line)',
-  lineHover: 'var(--ruler-semantic-color-border-line-hover)',
-  linePressed: 'var(--ruler-semantic-color-border-line-pressed)',
-  lineSelected: 'var(--ruler-semantic-color-border-line-selected)',
-  lineNegative: 'var(--ruler-semantic-color-border-line-negative)',
-  lineNegativeHover: 'var(--ruler-semantic-color-border-line-negative-hover)',
-  lineNegativePressed: 'var(--ruler-semantic-color-border-line-negative-pressed)',
-  lineDisabled: 'var(--ruler-semantic-color-border-line-disabled)',
+	dividerStrong: "var(--fractal-semantic-color-border-divider-strong)",
+	divider: "var(--fractal-semantic-color-border-divider)",
+	line: "var(--fractal-semantic-color-border-line)",
+	lineHover: "var(--fractal-semantic-color-border-line-hover)",
+	linePressed: "var(--fractal-semantic-color-border-line-pressed)",
+	lineSelected: "var(--fractal-semantic-color-border-line-selected)",
+	lineNegative: "var(--fractal-semantic-color-border-line-negative)",
+	lineNegativeHover: "var(--fractal-semantic-color-border-line-negative-hover)",
+	lineNegativePressed: "var(--fractal-semantic-color-border-line-negative-pressed)",
+	lineDisabled: "var(--fractal-semantic-color-border-line-disabled)",
 };
 
 export const overlay = {
-  dimmed: 'var(--ruler-semantic-color-overlay-dimmed)',
+	dimmed: "var(--fractal-semantic-color-overlay-dimmed)",
 };
