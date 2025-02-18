@@ -17,6 +17,8 @@ export const Text = forwardRef<HTMLElement, TextProps>(({ className, as, color, 
 	</StyledText>
 ));
 
+Text.displayName = "Text";
+
 const StyledText = styled.span<Required<Pick<TextProps, "color" | "typography">> & Pick<TextProps, "align" | "lineLimit">>`
 	display: inline-block;
 	${({ typography }) => vars.$semantic.typography[typography]};

@@ -65,6 +65,7 @@
 	},
 	"workspaces": [
 		"apps/*",
+		"packages/*",
 		"packages/**"
 	],
 	"packageManager": "yarn@4.6.0"

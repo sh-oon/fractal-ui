@@ -7,7 +7,7 @@ import { Text } from "../text";
 import type { ButtonProps, ButtonSize, ButtonState, ButtonVariant } from "./button.types";
 import { buttonSizes, buttonVariant } from "./button.variants";
 
-const TextClassName = "ruler-button-text";
+const TextClassName = "fractal-button-text";
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(({ variant, size, children, disabled, onClick, className, pending = false, stretch = false }, ref) => {
 	const { typography, spinnerSize } = buttonSizes[size];

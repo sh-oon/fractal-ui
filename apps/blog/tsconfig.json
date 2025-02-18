@@ -1,0 +1,13 @@
+{
+	"extends": "@fractal/typescript-config/nextjs.json",
+	"compilerOptions": {
+		"outDir": "dist",
+		"baseUrl": ".",
+		"paths": {
+			"@blog/*": ["./src/*"],
+			"@fractal/ui-emotion": ["../../ui/emotion/src"]
+		}
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "dist"]
+}
