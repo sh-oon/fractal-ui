@@ -1720,8 +1720,8 @@ __metadata:
   dependencies:
     "@emotion/react": "npm:*"
     "@emotion/styled": "npm:*"
-    "@fractal/config-storybook": "workspace:*"
     "@fractal/eslint-config": "workspace:*"
+    "@fractal/storybook-config": "workspace:*"
     "@fractal/typescript-config": "workspace:*"
     "@fractal/ui-reset": "workspace:*"
     "@fractal/ui-tokens": "workspace:*"
@@ -1750,25 +1750,6 @@ __metadata:
     remark: "npm:^15.0.1"
     remark-gfm: "npm:^4.0.0"
     shiki: "npm:^1.11.1"
-    typescript: "npm:*"
-  languageName: unknown
-  linkType: soft
-
-"@fractal/config-storybook@workspace:*, @fractal/config-storybook@workspace:packages/storybook-config":
-  version: 0.0.0-use.local
-  resolution: "@fractal/config-storybook@workspace:packages/storybook-config"
-  dependencies:
-    "@emotion/react": "npm:*"
-    "@emotion/styled": "npm:*"
-    "@storybook/addon-viewport": "npm:*"
-    "@storybook/nextjs": "npm:*"
-    "@storybook/react": "npm:*"
-    "@types/node": "npm:*"
-    "@types/react": "npm:*"
-    "@types/react-dom": "npm:*"
-    next: "npm:*"
-    react: "npm:*"
-    react-dom: "npm:*"
     typescript: "npm:*"
   languageName: unknown
   linkType: soft
@@ -1858,6 +1839,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@fractal/storybook-config@workspace:*, @fractal/storybook-config@workspace:packages/storybook-config":
+  version: 0.0.0-use.local
+  resolution: "@fractal/storybook-config@workspace:packages/storybook-config"
+  dependencies:
+    "@emotion/react": "npm:*"
+    "@emotion/styled": "npm:*"
+    "@storybook/addon-viewport": "npm:*"
+    "@storybook/nextjs": "npm:*"
+    "@storybook/react": "npm:*"
+    "@types/node": "npm:*"
+    "@types/react": "npm:*"
+    "@types/react-dom": "npm:*"
+    next: "npm:*"
+    react: "npm:*"
+    react-dom: "npm:*"
+    typescript: "npm:*"
+  languageName: unknown
+  linkType: soft
+
 "@fractal/typescript-config@npm:*, @fractal/typescript-config@workspace:*, @fractal/typescript-config@workspace:packages/typescript-config":
   version: 0.0.0-use.local
   resolution: "@fractal/typescript-config@workspace:packages/typescript-config"
@@ -1870,8 +1870,8 @@ __metadata:
   dependencies:
     "@emotion/react": "npm:*"
     "@emotion/styled": "npm:*"
-    "@fractal/config-storybook": "workspace:*"
     "@fractal/eslint-config": "workspace:*"
+    "@fractal/storybook-config": "workspace:*"
     "@fractal/typescript-config": "workspace:*"
     "@fractal/ui-reset": "workspace:*"
     "@fractal/ui-tokens": "workspace:*"

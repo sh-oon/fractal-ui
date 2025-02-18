@@ -1,5 +1,5 @@
 {
-	"name": "@fractal/config-storybook",
+	"name": "@fractal/storybook-config",
 	"version": "0.0.0",
 	"main": "index.ts",
 	"devDependencies": {

@@ -12,8 +12,8 @@
 	"devDependencies": {
 		"@emotion/react": "*",
 		"@emotion/styled": "*",
-		"@fractal/config-storybook": "workspace:*",
 		"@fractal/eslint-config": "workspace:*",
+		"@fractal/storybook-config": "workspace:*",
 		"@fractal/typescript-config": "workspace:*",
 		"@fractal/ui-reset": "workspace:*",
 		"@fractal/ui-tokens": "workspace:*",

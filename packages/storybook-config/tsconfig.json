@@ -1,4 +1,4 @@
 {
-	"extends": "@fractal/typescript-config/base.json",
+	"extends": "@fractal/typescript-config/react-library.json",
 	"include": ["."]
 }

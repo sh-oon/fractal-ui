@@ -1,3 +1,3 @@
-import { baseNextJsStorybookConfig } from "@fractal/config-storybook";
+import { baseNextJsStorybookConfig } from "@fractal/storybook-config";
 
 export default { ...baseNextJsStorybookConfig };
