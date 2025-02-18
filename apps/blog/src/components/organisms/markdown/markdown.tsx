@@ -2,7 +2,7 @@
 
 import styled from '@emotion/styled'
 import Image from 'next/image'
-import { Text } from '@/components/atoms'
+import { Text } from '@fractal/ui-emotion'
 import { MDXRemote } from 'next-mdx-remote'
 import { getPostSourceBySlug } from '@/lib/serialize'
 import { vars } from '@fractal/ui-tokens'
@@ -33,35 +33,35 @@ export const Markdown = ({ source }: Props) => {
           components={{
             // Headings
             h1: ({ children }) => (
-              <Text as='h1' typography='title-xxl-bold' id={children?.toString()}>
-                {children}
+              <Text as='h1' typography='title-xxl-bold' id={children?.toString()} color={'primary'}>
+                {children as React.ReactNode}
               </Text>
             ),
             h2: ({ children }) => (
-              <Text as='h2' typography='title-xl-bold' id={children?.toString()}>
-                {children}
+              <Text as='h2' typography='title-xl-bold' id={children?.toString()} color={'primary'}>
+                {children as React.ReactNode}
               </Text>
             ),
             h3: ({ children }) => (
-              <Text as='h3' typography='title-l-bold' id={children?.toString()}>
-                {children}
+              <Text as='h3' typography='title-l-bold' id={children?.toString()} color={'primary'}>
+                {children as React.ReactNode}
               </Text>
             ),
             h4: ({ children }) => (
-              <Text as='h4' typography='title-m-bold' id={children?.toString()}>
-                {children}
+              <Text as='h4' typography='title-m-bold' id={children?.toString()} color={'primary'}>
+                {children as React.ReactNode}
               </Text>
             ),
 
             // Lists
-            ul: ({ children }) => <ul role={'list'}>{children}</ul>,
-            ol: ({ children }) => <ol role={'list'}>{children}</ol>,
-            li: ({ children }) => <li>{children}</li>,
+            ul: ({ children }) => <ul role={'list'}>{children as React.ReactNode}</ul>,
+            ol: ({ children }) => <ol role={'list'}>{children as React.ReactNode}</ol>,
+            li: ({ children }) => <li>{children as React.ReactNode}</li>,
 
             // Link
             a: ({ children, href }) => (
               <Link href={href as string} className='link' target='_blank'>
-                {children}
+                {children as React.ReactNode}
               </Link>
             ),
 
@@ -72,7 +72,7 @@ export const Markdown = ({ source }: Props) => {
               </span>
             ),
 
-            blockquote: ({ children }) => <StyledBlockquote>{children}</StyledBlockquote>,
+            blockquote: ({ children }) => <StyledBlockquote>{children as React.ReactNode}</StyledBlockquote>,
 
             hr: () => <hr />,
           }}
@@ -186,7 +186,7 @@ const StyledMarkdownContainer = styled.div`
   }
 
   & pre {
-    border: 1px solid var(--color-border-line);
+    border: 1px solid ${vars.$semantic.color.border.line};
     width: 100%;
     padding: 1rem;
     border-radius: 0.375rem;
@@ -206,7 +206,7 @@ const StyledMarkdownContainer = styled.div`
     width: 1rem;
     margin-right: 2rem;
     text-align: right;
-    color: #6b7280;
+    color: ${vars.$semantic.color.text.tertiary};
   }
 
   & code[data-line-numbers-max-digits='2'] > [data-line]::before {
@@ -249,7 +249,7 @@ const StyledMarkdownContainer = styled.div`
 
     hr {
       border-color: ${vars.$semantic.color.border.dividerStrong};
-      background-color: ${vars.$semantic.color.background.dark};
+      background-color: ${vars.$semantic.color.background.low};
     }
   }
 `

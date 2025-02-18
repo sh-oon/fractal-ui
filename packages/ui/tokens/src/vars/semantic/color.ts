@@ -32,6 +32,7 @@ export const text = {
 export const background = {
 	low: "var(--fractal-semantic-color-background-low)",
 	default: "var(--fractal-semantic-color-background-default)",
+	blockquote: "var(--fractal-semantic-color-background-blockquote)",
 };
 
 export const fill = {

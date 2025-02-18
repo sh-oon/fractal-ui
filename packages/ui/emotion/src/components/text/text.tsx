@@ -3,8 +3,9 @@ import styled from "@emotion/styled";
 import { forwardRef } from "react";
 import type { TextProps } from "./text.types";
 
-export const Text = forwardRef<HTMLElement, TextProps>(({ className, as, color, typography, children, lineLimit, align }, ref) => (
+export const Text = forwardRef<HTMLElement, TextProps>(({ className, as, color, typography, children, lineLimit, align, id, ...props }, ref) => (
 	<StyledText
+		{...props}
 		ref={ref}
 		className={className}
 		as={as}
@@ -12,6 +13,7 @@ export const Text = forwardRef<HTMLElement, TextProps>(({ className, as, color, 
 		typography={typography}
 		lineLimit={lineLimit}
 		align={align}
+		id={id}
 	>
 		{children}
 	</StyledText>

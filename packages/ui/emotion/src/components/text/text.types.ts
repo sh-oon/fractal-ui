@@ -12,4 +12,5 @@ export type TextProps = PropsWithChildren<{
 	typography: TypographyType;
 	lineLimit?: number;
 	align?: "left" | "center" | "right";
+	id?: string;
 }>;

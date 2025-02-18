@@ -4,11 +4,8 @@
     "baseUrl": ".",
     "outDir": "dist",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    },
-    "jsx": "preserve"
+      "@/*": ["./src/*"]
+    }
   },
   "include": [
     "next-env.d.ts",

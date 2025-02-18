@@ -1,5 +1,5 @@
 import { Toc } from '@/components/molecules/toc'
-import { Markdown } from '@/components/organisms/Markdown'
+import { Markdown } from '@/components/organisms/markdown'
 import MarkdownHeader from '@/components/organisms/MarkdownHeader'
 import { useDevice } from '@/context/DeviceContext'
 import { getPostSourceBySlug } from '@/lib/serialize'

@@ -16,7 +16,8 @@ export const Toc = () => {
 
   useEffect(() => {
     const mds = document?.getElementById('markdown')?.querySelectorAll('h1, h2, h3, h4, h5, h6') || []
-    
+
+    console.log(mds)
     setElementPosition(
       Array.from(mds || []).map((md) => {
         return {
@@ -32,8 +33,10 @@ export const Toc = () => {
     const el = elementPosition.find((el) => el.id === id)
     if (!el) return
 
-    window.scrollTo({ top: el.top - 100 , behavior: 'smooth' })
+    window.scrollTo({ top: el.top - 100, behavior: 'smooth' })
   }
+
+  console.log(elementPosition)
 
   return (
     <StyledToC>

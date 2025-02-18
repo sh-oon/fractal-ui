@@ -381,6 +381,7 @@ html.layer_scrolling body {
 
   --fractal-semantic-color-background-low: var(--fractal-scale-color-gray-100);
   --fractal-semantic-color-background-default: var(--fractal-scale-color-gray-00);
+  --fractal-semantic-color-background-blockquote: var(--fractal-scale-color-gray-100);
 
   --fractal-semantic-color-fill-primary: var(--fractal-scale-color-gray-950);
   --fractal-semantic-color-fill-primary-hover: var(--fractal-scale-color-gray-800);
@@ -410,7 +411,7 @@ html.layer_scrolling body {
   --fractal-semantic-color-fill-disabled: var(--fractal-scale-color-gray-100);
 
   --fractal-semantic-color-border-divider-strong: var(--fractal-scale-color-gray-950);
-  --fractal-semantic-color-border-divider: var(--fractal-scale-color-gray-100);
+  --fractal-semantic-color-border-divider: var(--fractal-scale-color-gray-200);
   --fractal-semantic-color-border-line: var(--fractal-scale-color-gray-200);
   --fractal-semantic-color-border-line-hover: var(--fractal-scale-color-gray-400);
   --fractal-semantic-color-border-line-pressed: var(--fractal-scale-color-gray-400);

@@ -7,7 +7,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { vars } from '@fractal/ui-tokens'
-import { Text } from '@/components/atoms'
+import { Text } from '@fractal/ui-emotion'
 
 type Props = {
   post: TArticle
@@ -18,7 +18,7 @@ export const ArticleCard = ({ post }: Props) => {
     <StyledCardContainer>
       <Link href={`/posts/${post.link}`}>
         <StyledCardHeader>
-          <Text as={'h3'} typography={'title-l-bold'} align={'center'}>
+          <Text as={'h3'} typography={'title-l-bold'} align={'center'} color={'primary'}>
             {post.title}
           </Text>
           <div>
@@ -32,7 +32,7 @@ export const ArticleCard = ({ post }: Props) => {
         <ImageContainer>
           <Image src={post.coverImage} alt={post.title} width={800} height={400} priority={true} />
         </ImageContainer>
-        <Text typography={'text-m'}>{formatDate(post.date, 'YYMMDD')}</Text>
+        <Text typography={'text-m'} color={'tertiary'}>{formatDate(post.date, 'YYMMDD')}</Text>
       </Link>
     </StyledCardContainer>
   )

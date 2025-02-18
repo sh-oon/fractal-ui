@@ -2,7 +2,7 @@ import { TArticle } from '@/types/common'
 import { formatDate } from '@/utils/common'
 import styled from '@emotion/styled'
 import React from 'react'
-import { Text } from '@/components/atoms'
+import { Text } from '@fractal/ui-emotion'
 import { vars } from '@fractal/ui-tokens'
 
 type Props = {
@@ -12,7 +12,7 @@ type Props = {
 function MarkdownHeader({ post }: Props) {
   return (
     <StyledMarkdownHeader>
-      <Text as={'h1'} typography={'title-xxl-bold'}>
+      <Text as={'h1'} typography={'title-xxl-bold'} color={'primary'}>
         {post.title}
       </Text>
       <div className='description-container'>
