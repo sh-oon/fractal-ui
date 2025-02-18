@@ -28,9 +28,7 @@ build
 dist
 
 # Storybook
-**/.storybook/
-**/.storybook-static/
-**/.storybook-static-build/
+.storybook-static
 
 # Debug
 npm-debug.log*
@@ -44,7 +42,6 @@ yarn-error.log*
 doc/
 
 # node_modules
-*/node_modules
 *storybook.log
 
 stories/
