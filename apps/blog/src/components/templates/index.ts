@@ -1,3 +1,2 @@
-export * from '../scroll-animation';
-export * from './chess';
-export * from './posts';
+export * from '../scroll-animation'
+export * from './posts'
