@@ -1,12 +1,11 @@
 {
 	"extends": "@fractal/typescript-config/nextjs.json",
 	"compilerOptions": {
-		"plugins": [
-			{
-				"name": "next"
-			}
-		]
+		"baseUrl": ".",
+		"paths": {
+			"@docs/*": ["./src/*"]
+		}
 	},
-	"include": ["**/*.ts", "**/*.tsx", "next-env.d.ts", "next.config.js", ".next/types/**/*.ts"],
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
 	"exclude": ["node_modules"]
 }
