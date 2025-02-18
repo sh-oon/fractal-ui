@@ -1,0 +1,4 @@
+{
+	"extends": "@fractal/typescript-config/base.json",
+	"include": ["."]
+}

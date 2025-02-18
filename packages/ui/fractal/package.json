@@ -6,11 +6,27 @@
 	"scripts": {
 		"lint": "eslint . --max-warnings 0",
 		"generate:component": "turbo gen react-component",
-		"check-types": "tsc --noEmit"
+		"check-types": "tsc --noEmit",
+		"storybook": "storybook dev -p 6200 --quiet"
 	},
 	"devDependencies": {
+		"@emotion/react": "*",
+		"@emotion/styled": "*",
+		"@fractal/config-storybook": "workspace:*",
 		"@fractal/eslint-config": "workspace:*",
 		"@fractal/typescript-config": "workspace:*",
+		"@fractal/ui-reset": "workspace:*",
+		"@fractal/ui-tokens": "workspace:*",
+		"@storybook/addon-actions": "*",
+		"@storybook/addon-essentials": "*",
+		"@storybook/addon-interactions": "*",
+		"@storybook/addon-links": "*",
+		"@storybook/addon-onboarding": "*",
+		"@storybook/addon-viewport": "*",
+		"@storybook/addons": "*",
+		"@storybook/nextjs": "*",
+		"@storybook/react": "*",
+		"@storybook/theming": "*",
 		"@turbo/gen": "*",
 		"@types/node": "*",
 		"@types/react": "*",
@@ -19,6 +35,7 @@
 		"next": "*",
 		"react": "*",
 		"react-dom": "*",
+		"storybook": "*",
 		"typescript": "*"
 	}
 }

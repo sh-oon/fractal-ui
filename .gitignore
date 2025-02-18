@@ -41,3 +41,4 @@ doc/
 
 # node_modules
 */node_modules
+*storybook.log
