@@ -1720,8 +1720,6 @@ __metadata:
   dependencies:
     "@emotion/react": "npm:*"
     "@emotion/styled": "npm:*"
-    "@fractal/eslint-config": "workspace:*"
-    "@fractal/storybook-config": "workspace:*"
     "@fractal/typescript-config": "workspace:*"
     "@fractal/ui-reset": "workspace:*"
     "@fractal/ui-tokens": "workspace:*"

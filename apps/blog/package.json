@@ -29,8 +29,6 @@
     "shiki": "^1.11.1"
   },
   "devDependencies": {
-    "@fractal/eslint-config": "workspace:*",
-    "@fractal/storybook-config": "workspace:*",
     "@fractal/typescript-config": "workspace:*",
     "@fractal/ui-reset": "workspace:*",
     "@fractal/ui-tokens": "workspace:*",
