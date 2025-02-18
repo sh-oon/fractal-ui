@@ -8,7 +8,7 @@
 		"check-types": "tsc --noEmit"
 	},
 	"devDependencies": {
-		"@fractal/eslint-config": "*",
+		"@fractal/eslint-config": "workspace:*",
 		"@fractal/typescript-config": "workspace:*",
 		"@turbo/gen": "*",
 		"@types/node": "*",
