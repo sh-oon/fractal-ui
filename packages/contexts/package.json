@@ -1,24 +1,24 @@
 {
-	"name": "@fractal/contexts",
-	"version": "0.0.0",
-	"private": true,
-	"scripts": {
-		"lint": "eslint . --max-warnings 0",
-		"generate:component": "turbo gen react-component",
-		"check-types": "tsc --noEmit"
-	},
-	"devDependencies": {
-		"@fractal/eslint-config": "workspace:*",
-		"@fractal/typescript-config": "workspace:*",
-		"@turbo/gen": "*",
-		"@types/node": "*",
-		"@types/react": "*",
-		"@types/react-dom": "*",
-		"eslint": "*",
-		"typescript": "*"
-	},
-	"dependencies": {
-		"react": "*",
-		"react-dom": "*"
-	}
+  "name": "@fractal/contexts",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "generate:component": "turbo gen react-component",
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@fractal/eslint-config": "*",
+    "@fractal/typescript-config": "*",
+    "@turbo/gen": "*",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "eslint": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
 }

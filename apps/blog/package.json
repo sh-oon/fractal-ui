@@ -29,10 +29,10 @@
     "shiki": "^1.11.1"
   },
   "devDependencies": {
-    "@fractal/eslint-config": "workspace:*",
-    "@fractal/typescript-config": "workspace:*",
-    "@fractal/ui-reset": "workspace:*",
-    "@fractal/ui-tokens": "workspace:*",
+    "@fractal/eslint-config": "*",
+    "@fractal/typescript-config": "*",
+    "@fractal/ui-reset": "*",
+    "@fractal/ui-tokens": "*",
     "@shikijs/rehype": "^1.11.1",
     "@types/mdx": "^2.0.13",
     "@types/node": "*",

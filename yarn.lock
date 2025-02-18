@@ -1720,10 +1720,10 @@ __metadata:
   dependencies:
     "@emotion/react": "npm:*"
     "@emotion/styled": "npm:*"
-    "@fractal/eslint-config": "workspace:*"
-    "@fractal/typescript-config": "workspace:*"
-    "@fractal/ui-reset": "workspace:*"
-    "@fractal/ui-tokens": "workspace:*"
+    "@fractal/eslint-config": "npm:*"
+    "@fractal/typescript-config": "npm:*"
+    "@fractal/ui-reset": "npm:*"
+    "@fractal/ui-tokens": "npm:*"
     "@fxts/core": "npm:^1.0.1"
     "@mdx-js/loader": "npm:^3.0.1"
     "@mdx-js/react": "npm:^3.0.1"
@@ -1757,8 +1757,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@fractal/contexts@workspace:packages/contexts"
   dependencies:
-    "@fractal/eslint-config": "workspace:*"
-    "@fractal/typescript-config": "workspace:*"
+    "@fractal/eslint-config": "npm:*"
+    "@fractal/typescript-config": "npm:*"
     "@turbo/gen": "npm:*"
     "@types/node": "npm:*"
     "@types/react": "npm:*"
@@ -1838,7 +1838,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@fractal/storybook-config@workspace:*, @fractal/storybook-config@workspace:packages/storybook-config":
+"@fractal/storybook-config@npm:*, @fractal/storybook-config@workspace:packages/storybook-config":
   version: 0.0.0-use.local
   resolution: "@fractal/storybook-config@workspace:packages/storybook-config"
   dependencies:
@@ -1869,11 +1869,11 @@ __metadata:
   dependencies:
     "@emotion/react": "npm:*"
     "@emotion/styled": "npm:*"
-    "@fractal/eslint-config": "workspace:*"
-    "@fractal/storybook-config": "workspace:*"
-    "@fractal/typescript-config": "workspace:*"
-    "@fractal/ui-reset": "workspace:*"
-    "@fractal/ui-tokens": "workspace:*"
+    "@fractal/eslint-config": "npm:*"
+    "@fractal/storybook-config": "npm:*"
+    "@fractal/typescript-config": "npm:*"
+    "@fractal/ui-reset": "npm:*"
+    "@fractal/ui-tokens": "npm:*"
     "@storybook/addon-actions": "npm:*"
     "@storybook/addon-essentials": "npm:*"
     "@storybook/addon-interactions": "npm:*"
@@ -1897,7 +1897,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@fractal/ui-reset@workspace:*, @fractal/ui-reset@workspace:packages/ui/reset":
+"@fractal/ui-reset@npm:*, @fractal/ui-reset@workspace:packages/ui/reset":
   version: 0.0.0-use.local
   resolution: "@fractal/ui-reset@workspace:packages/ui/reset"
   dependencies:
@@ -1905,7 +1905,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@fractal/ui-tokens@workspace:*, @fractal/ui-tokens@workspace:packages/ui/tokens":
+"@fractal/ui-tokens@npm:*, @fractal/ui-tokens@workspace:packages/ui/tokens":
   version: 0.0.0-use.local
   resolution: "@fractal/ui-tokens@workspace:packages/ui/tokens"
   dependencies:
