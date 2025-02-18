@@ -1720,6 +1720,7 @@ __metadata:
   dependencies:
     "@emotion/react": "npm:*"
     "@emotion/styled": "npm:*"
+    "@fractal/eslint-config": "workspace:*"
     "@fractal/typescript-config": "workspace:*"
     "@fractal/ui-reset": "workspace:*"
     "@fractal/ui-tokens": "workspace:*"
@@ -1756,7 +1757,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@fractal/contexts@workspace:packages/contexts"
   dependencies:
-    "@fractal/eslint-config": "npm:*"
+    "@fractal/eslint-config": "workspace:*"
     "@fractal/typescript-config": "workspace:*"
     "@turbo/gen": "npm:*"
     "@types/node": "npm:*"

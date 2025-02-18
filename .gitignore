@@ -28,7 +28,7 @@ build
 dist
 
 # Storybook
-.storybook-static
+storybook-static
 
 # Debug
 npm-debug.log*
