@@ -1,4 +1,5 @@
 import '@fractal/ui-reset'
+import '@/styles/global.css'
 import { Header } from '@/components/organisms'
 import { DeviceProvider } from '@/context/DeviceContext'
 import type { AppProps } from 'next/app'

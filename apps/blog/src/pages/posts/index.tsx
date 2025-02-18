@@ -27,7 +27,6 @@ export default function PostPage({ posts }: Props) {
 }
 
 const StyledSection = styled.section`
-  width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;

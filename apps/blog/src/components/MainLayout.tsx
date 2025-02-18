@@ -8,9 +8,8 @@ function MainLayout({ children }: PropsWithChildren<{}>) {
 
 const StyledMain = styled.main`
   min-height: 100dvh;
-  padding-top: 80px;
   position: relative;
-  background-color: ${vars.$semantic.color.background.white};
+  background-color: ${vars.$semantic.color.background.default};
 `
 
 export default MainLayout
