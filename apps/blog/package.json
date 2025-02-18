@@ -1,34 +1,49 @@
 {
-	"name": "docs",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev --turbopack",
-		"dev:nextra": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"@stylexjs/stylex": "^0.9.3",
-		"motion": "^11.15.0",
-		"next": "*",
-		"react": "*",
-		"react-dom": "*"
-	},
-	"devDependencies": {
-		"@eslint/eslintrc": "^3",
-		"@fractal/eslint-config": "workspace:*",
-		"@fractal/typescript-config": "workspace:*",
-		"@fractal/ui-emotion": "workspace:*",
-		"@fractal/ui-reset": "workspace:*",
-		"@fractal/ui-tokens": "workspace:*",
-		"@stylexswc/nextjs-plugin": "^0.6.6",
-		"@types/node": "*",
-		"@types/react": "*",
-		"@types/react-dom": "*",
-		"eslint": "*",
-		"eslint-config-next": "*",
-		"typescript": "*"
-	}
+  "name": "@fractal/blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "*",
+    "@emotion/styled": "*",
+    "@fxts/core": "^1.0.1",
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.5",
+    "framer-motion": "^11.3.30",
+    "next": "*",
+    "next-mdx-remote": "^5.0.0",
+    "overlay-kit": "^1.4.1",
+    "prettier": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-icons": "^5.2.1",
+    "rehype-pretty-code": "^0.13.2",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.0",
+    "shiki": "^1.11.1"
+  },
+  "devDependencies": {
+    "@fractal/config-storybook": "workspace:*",
+    "@fractal/eslint-config": "workspace:*",
+    "@fractal/typescript-config": "workspace:*",
+    "@fractal/ui-reset": "workspace:*",
+    "@fractal/ui-tokens": "workspace:*",
+    "@shikijs/rehype": "^1.11.1",
+    "@types/mdx": "^2.0.13",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "eslint": "*",
+    "eslint-config-next": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-prettier": "*",
+    "typescript": "*"
+  },
+  "license": "MIT"
 }
