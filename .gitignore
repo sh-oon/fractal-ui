@@ -45,3 +45,8 @@ doc/
 *storybook.log
 
 stories/
+
+# ide
+.idea/
+.vscode/
+.cursorrules

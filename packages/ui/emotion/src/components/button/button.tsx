@@ -124,7 +124,7 @@ function getSizeStyle({ size, stretch }: { size: ButtonSize; stretch: boolean })
 	const { padding: buttonPadding, ...rest } = buttonSizes[size];
 
 	return css`
-		${rest}
+		${rest};
 
 		flex: ${stretch ? 1 : "initial"};
 
