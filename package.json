@@ -8,7 +8,11 @@
 		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
 		"check-types": "turbo run check-types",
 		"storybook": "storybook dev -p 6006",
-		"build-storybook": "storybook build"
+		"build-storybook": "storybook build",
+		"dev:blog": "turbo run dev --filter @fractal/blog",
+		"build:blog": "turbo run build --filter @fractal/blog",
+		"dev:storybook": "turbo run dev --filter @fractal/ui-emotion",
+		"build:storybook": "turbo run build --filter @fractal/storybook"
 	},
 	"resolutions": {
 		"@emotion/react": "^11.14.0",
