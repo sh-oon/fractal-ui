@@ -1,0 +1,48 @@
+{
+  "name": "@fractal/ui-tailwind",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "generate:component": "turbo gen react-component",
+    "check-types": "tsc --noEmit",
+    "dev": "storybook dev -p 6200 --quiet",
+    "build": "storybook build"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "@fractal/eslint-config": "*",
+    "@fractal/storybook-config": "*",
+    "@fractal/typescript-config": "*",
+    "@fractal/ui-reset": "*",
+    "@fractal/ui-tokens": "*",
+    "@storybook/addon-actions": "*",
+    "@storybook/addon-essentials": "*",
+    "@storybook/addon-interactions": "*",
+    "@storybook/addon-links": "*",
+    "@storybook/addon-onboarding": "*",
+    "@storybook/addon-viewport": "*",
+    "@storybook/addons": "*",
+    "@storybook/nextjs": "*",
+    "@storybook/react": "*",
+    "@storybook/theming": "*",
+    "@tailwindcss/postcss": "*",
+    "@turbo/gen": "*",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "autoprefixer": "*",
+    "eslint": "*",
+    "next": "*",
+    "postcss": "*",
+    "react": "*",
+    "react-dom": "*",
+    "storybook": "*",
+    "tailwindcss": "*",
+    "typescript": "*"
+  }
+}
