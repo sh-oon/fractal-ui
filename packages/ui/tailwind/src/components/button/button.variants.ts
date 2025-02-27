@@ -1,4 +1,4 @@
-import { ButtonPadding, ButtonSize, ButtonState, ButtonVariant } from './button.types'
+import { ButtonPadding, ButtonSize, ButtonVariant } from './button.types'
 // import type { SpinnerSize, SpinnerColor } from '../spinner/spinner.types'
 
 // 버튼 사이즈 설정
@@ -92,7 +92,7 @@ export const sizeClasses: Record<ButtonSize, string> = {
   xSmall: `${buttonSizes.xSmall.typography} ${buttonSizes.xSmall.height} ${buttonSizes.xSmall.minWidth} ${buttonSizes.xSmall.padding.default}`,
 }
 
-export function getButtonClasses(variant: ButtonVariant, size: ButtonSize, disabled: boolean = false): string {
+export function getButtonClasses(variant: ButtonVariant, size: ButtonSize): string {
   const variantClass = `${buttonVariant[variant].typography} ${buttonVariant[variant].background} ${buttonVariant[variant].border} ${buttonVariant[variant].icon}`
 
   return `${sizeClasses[size]} ${variantClass} rounded rounded-xs transition-colors duration-200 focus:outline-none cursor-pointer disabled:cursor-not-allowed`

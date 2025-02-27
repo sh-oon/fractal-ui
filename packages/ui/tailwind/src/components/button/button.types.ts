@@ -1,7 +1,5 @@
 import type { MouseEventHandler } from 'react'
 
-export type ButtonState = 'enabled' | 'hover' | 'pressed' | 'disabled'
-
 export type ButtonPadding = {
   default: string
 }
