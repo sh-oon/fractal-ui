@@ -1,8 +1,22 @@
-export type ButtonVariant = 'primary' | 'secondary' | 'tertiary'
-export type ButtonSize = 'sm' | 'md' | 'lg'
+import type { MouseEventHandler } from 'react'
 
-export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: ButtonVariant
-  size?: ButtonSize
-  children: React.ReactNode
+export type ButtonState = 'enabled' | 'hover' | 'pressed' | 'disabled'
+
+export type ButtonPadding = {
+  default: string
+}
+
+export type ButtonVariant = 'primary' | 'secondary' | 'tertiary'
+
+export type ButtonSize = 'large' | 'medium' | 'small' | 'xSmall'
+
+export type ButtonProps = {
+  variant: ButtonVariant
+  size: ButtonSize
+  children: string | string[]
+  pending?: boolean
+  disabled?: boolean
+  onClick?: MouseEventHandler<HTMLButtonElement> | undefined
+  className?: string
+  stretch?: boolean
 }

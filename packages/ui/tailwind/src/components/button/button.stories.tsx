@@ -5,7 +5,7 @@ import type { ButtonProps } from './button.types'
 
 const baseArgs: ButtonProps = {
   variant: 'primary',
-  size: 'sm',
+  size: 'small',
   children: '더보기',
   onClick: action('onclick'),
 }

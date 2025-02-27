@@ -347,10 +347,10 @@ html.layer_scrolling body {
   --fractal-static-scale-font-family-pretendard: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont,
     system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic',
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
-  --fractal-static-scale-font-family-29cm-default-font: var(--fractal-static-scale-font-family-pretendard);
+  --fractal-static-scale-font-family-default-font: var(--fractal-static-scale-font-family-pretendard);
 
   /* semantic-color */
-  --fractal-semantic-color-text-primary: var(--fractal-scale-color-gray-950);
+  --fractal-semantic-color-text-primary: var(--color-gray-950);
   --fractal-semantic-color-text-primary-hover: var(--fractal-scale-color-gray-600);
   --fractal-semantic-color-text-primary-pressed: var(--fractal-scale-color-gray-600);
 
@@ -424,199 +424,199 @@ html.layer_scrolling body {
   --fractal-semantic-color-overlay-dimmed: var(--fractal-static-scale-color-black-alpha-500);
 
   /* typography */
-  --fractal-semantic-typography-title-xxl-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-title-xxl-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-title-xxl-font-weight: var(--fractal-scale-font-weight-regular);
   --fractal-semantic-typography-title-xxl-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-title-xxl-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-title-xxl-font-size: var(--fractal-scale-dimension-font-size-550);
 
-  --fractal-semantic-typography-title-xxl-bold-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-title-xxl-bold-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-title-xxl-bold-font-weight: var(--fractal-scale-font-weight-bold);
   --fractal-semantic-typography-title-xxl-bold-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-title-xxl-bold-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-title-xxl-bold-font-size: var(--fractal-scale-dimension-font-size-550);
 
-  --fractal-semantic-typography-title-xxl-medium-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-title-xxl-medium-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-title-xxl-medium-font-weight: var(--fractal-scale-font-weight-medium);
   --fractal-semantic-typography-title-xxl-medium-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-title-xxl-medium-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-title-xxl-medium-font-size: var(--fractal-scale-dimension-font-size-550);
 
-  --fractal-semantic-typography-title-xl-bold-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-title-xl-bold-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-title-xl-bold-font-weight: var(--fractal-scale-font-weight-bold);
   --fractal-semantic-typography-title-xl-bold-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-title-xl-bold-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-title-xl-bold-font-size: var(--fractal-scale-dimension-font-size-500);
 
-  --fractal-semantic-typography-title-xl-medium-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-title-xl-medium-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-title-xl-medium-font-weight: var(--fractal-scale-font-weight-medium);
   --fractal-semantic-typography-title-xl-medium-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-title-xl-medium-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-title-xl-medium-font-size: var(--fractal-scale-dimension-font-size-500);
 
-  --fractal-semantic-typography-title-l-bold-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-title-l-bold-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-title-l-bold-font-weight: var(--fractal-scale-font-weight-bold);
   --fractal-semantic-typography-title-l-bold-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-title-l-bold-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-title-l-bold-font-size: var(--fractal-scale-dimension-font-size-400);
 
-  --fractal-semantic-typography-title-l-medium-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-title-l-medium-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-title-l-medium-font-weight: var(--fractal-scale-font-weight-medium);
   --fractal-semantic-typography-title-l-medium-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-title-l-medium-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-title-l-medium-font-size: var(--fractal-scale-dimension-font-size-400);
 
-  --fractal-semantic-typography-title-m-bold-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-title-m-bold-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-title-m-bold-font-weight: var(--fractal-scale-font-weight-bold);
   --fractal-semantic-typography-title-m-bold-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-title-m-bold-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-title-m-bold-font-size: var(--fractal-scale-dimension-font-size-350);
 
-  --fractal-semantic-typography-title-m-medium-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-title-m-medium-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-title-m-medium-font-weight: var(--fractal-scale-font-weight-medium);
   --fractal-semantic-typography-title-m-medium-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-title-m-medium-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-title-m-medium-font-size: var(--fractal-scale-dimension-font-size-350);
 
-  --fractal-semantic-typography-title-s-bold-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-title-s-bold-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-title-s-bold-font-weight: var(--fractal-scale-font-weight-bold);
   --fractal-semantic-typography-title-s-bold-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-title-s-bold-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-title-s-bold-font-size: var(--fractal-scale-dimension-font-size-300);
 
-  --fractal-semantic-typography-title-s-medium-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-title-s-medium-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-title-s-medium-font-weight: var(--fractal-scale-font-weight-medium);
   --fractal-semantic-typography-title-s-medium-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-title-s-medium-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-title-s-medium-font-size: var(--fractal-scale-dimension-font-size-300);
 
-  --fractal-semantic-typography-title-xs-bold-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-title-xs-bold-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-title-xs-bold-font-weight: var(--fractal-scale-font-weight-bold);
   --fractal-semantic-typography-title-xs-bold-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-title-xs-bold-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-title-xs-bold-font-size: var(--fractal-scale-dimension-font-size-250);
 
-  --fractal-semantic-typography-title-xs-medium-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-title-xs-medium-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-title-xs-medium-font-weight: var(--fractal-scale-font-weight-medium);
   --fractal-semantic-typography-title-xs-medium-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-title-xs-medium-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-title-xs-medium-font-size: var(--fractal-scale-dimension-font-size-250);
 
-  --fractal-semantic-typography-text-xxl-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-xxl-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-xxl-font-weight: var(--fractal-scale-font-weight-regular);
   --fractal-semantic-typography-text-xxl-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-xxl-line-height: var(--fractal-scale-line-height-4);
   --fractal-semantic-typography-text-xxl-font-size: var(--fractal-scale-dimension-font-size-200);
 
-  --fractal-semantic-typography-text-xxl-bold-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-xxl-bold-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-xxl-bold-font-weight: var(--fractal-scale-font-weight-bold);
   --fractal-semantic-typography-text-xxl-bold-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-xxl-bold-line-height: var(--fractal-scale-line-height-4);
   --fractal-semantic-typography-text-xxl-bold-font-size: var(--fractal-scale-dimension-font-size-200);
 
-  --fractal-semantic-typography-text-xxl-medium-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-xxl-medium-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-xxl-medium-font-weight: var(--fractal-scale-font-weight-medium);
   --fractal-semantic-typography-text-xxl-medium-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-xxl-medium-line-height: var(--fractal-scale-line-height-4);
   --fractal-semantic-typography-text-xxl-medium-font-size: var(--fractal-scale-dimension-font-size-200);
 
-  --fractal-semantic-typography-text-xl-bold-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-xl-bold-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-xl-bold-font-weight: var(--fractal-scale-font-weight-bold);
   --fractal-semantic-typography-text-xl-bold-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-xl-bold-line-height: var(--fractal-scale-line-height-5);
   --fractal-semantic-typography-text-xl-bold-font-size: var(--fractal-scale-dimension-font-size-150);
 
-  --fractal-semantic-typography-text-xl-medium-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-xl-medium-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-xl-medium-font-weight: var(--fractal-scale-font-weight-medium);
   --fractal-semantic-typography-text-xl-medium-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-xl-medium-line-height: var(--fractal-scale-line-height-5);
   --fractal-semantic-typography-text-xl-medium-font-size: var(--fractal-scale-dimension-font-size-150);
 
-  --fractal-semantic-typography-text-xl-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-xl-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-xl-font-weight: var(--fractal-scale-font-weight-regular);
   --fractal-semantic-typography-text-xl-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-xl-line-height: var(--fractal-scale-line-height-5);
   --fractal-semantic-typography-text-xl-font-size: var(--fractal-scale-dimension-font-size-150);
 
-  --fractal-semantic-typography-text-l-bold-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-l-bold-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-l-bold-font-weight: var(--fractal-scale-font-weight-bold);
   --fractal-semantic-typography-text-l-bold-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-l-bold-line-height: var(--fractal-scale-line-height-4);
   --fractal-semantic-typography-text-l-bold-font-size: var(--fractal-scale-dimension-font-size-125);
 
-  --fractal-semantic-typography-text-l-medium-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-l-medium-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-l-medium-font-weight: var(--fractal-scale-font-weight-medium);
   --fractal-semantic-typography-text-l-medium-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-l-medium-line-height: var(--fractal-scale-line-height-4);
   --fractal-semantic-typography-text-l-medium-font-size: var(--fractal-scale-dimension-font-size-125);
 
-  --fractal-semantic-typography-text-l-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-l-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-l-font-weight: var(--fractal-scale-font-weight-regular);
   --fractal-semantic-typography-text-l-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-l-line-height: var(--fractal-scale-line-height-4);
   --fractal-semantic-typography-text-l-font-size: var(--fractal-scale-dimension-font-size-125);
 
-  --fractal-semantic-typography-text-m-bold-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-m-bold-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-m-bold-font-weight: var(--fractal-scale-font-weight-bold);
   --fractal-semantic-typography-text-m-bold-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-m-bold-line-height: var(--fractal-scale-line-height-4);
   --fractal-semantic-typography-text-m-bold-font-size: var(--fractal-scale-dimension-font-size-100);
 
-  --fractal-semantic-typography-text-m-medium-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-m-medium-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-m-medium-font-weight: var(--fractal-scale-font-weight-medium);
   --fractal-semantic-typography-text-m-medium-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-m-medium-line-height: var(--fractal-scale-line-height-4);
   --fractal-semantic-typography-text-m-medium-font-size: var(--fractal-scale-dimension-font-size-100);
 
-  --fractal-semantic-typography-text-m-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-m-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-m-font-weight: var(--fractal-scale-font-weight-regular);
   --fractal-semantic-typography-text-m-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-m-line-height: var(--fractal-scale-line-height-4);
   --fractal-semantic-typography-text-m-font-size: var(--fractal-scale-dimension-font-size-100);
 
-  --fractal-semantic-typography-text-s-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-s-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-s-font-weight: var(--fractal-scale-font-weight-regular);
   --fractal-semantic-typography-text-s-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-s-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-text-s-font-size: var(--fractal-scale-dimension-font-size-75);
 
-  --fractal-semantic-typography-text-s-bold-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-s-bold-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-s-bold-font-weight: var(--fractal-scale-font-weight-bold);
   --fractal-semantic-typography-text-s-bold-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-s-bold-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-text-s-bold-font-size: var(--fractal-scale-dimension-font-size-75);
 
-  --fractal-semantic-typography-text-s-medium-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-s-medium-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-s-medium-font-weight: var(--fractal-scale-font-weight-medium);
   --fractal-semantic-typography-text-s-medium-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-s-medium-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-text-s-medium-font-size: var(--fractal-scale-dimension-font-size-75);
 
-  --fractal-semantic-typography-text-xs-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-xs-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-xs-font-weight: var(--fractal-scale-font-weight-regular);
   --fractal-semantic-typography-text-xs-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-xs-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-text-xs-font-size: var(--fractal-scale-dimension-font-size-50);
 
-  --fractal-semantic-typography-text-xs-bold-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-xs-bold-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-xs-bold-font-weight: var(--fractal-scale-font-weight-bold);
   --fractal-semantic-typography-text-xs-bold-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-xs-bold-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-text-xs-bold-font-size: var(--fractal-scale-dimension-font-size-50);
 
-  --fractal-semantic-typography-text-xs-medium-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-xs-medium-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-xs-medium-font-weight: var(--fractal-scale-font-weight-medium);
   --fractal-semantic-typography-text-xs-medium-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-xs-medium-line-height: var(--fractal-scale-line-height-3);
   --fractal-semantic-typography-text-xs-medium-font-size: var(--fractal-scale-dimension-font-size-50);
 
-  --fractal-semantic-typography-text-xxs-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-xxs-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-xxs-font-weight: var(--fractal-scale-font-weight-regular);
   --fractal-semantic-typography-text-xxs-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-xxs-line-height: var(--fractal-scale-line-height-2);
   --fractal-semantic-typography-text-xxs-font-size: var(--fractal-scale-dimension-font-size-25);
 
-  --fractal-semantic-typography-text-xxs-medium-font-family: var(--fractal-static-scale-font-family-29cm-default-font);
+  --fractal-semantic-typography-text-xxs-medium-font-family: var(--fractal-static-scale-font-family-default-font);
   --fractal-semantic-typography-text-xxs-medium-font-weight: var(--fractal-scale-font-weight-medium);
   --fractal-semantic-typography-text-xxs-medium-letter-spacing: var(--fractal-scale-letter-spacing);
   --fractal-semantic-typography-text-xxs-medium-line-height: var(--fractal-scale-line-height-2);

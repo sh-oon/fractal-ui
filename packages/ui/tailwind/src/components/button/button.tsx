@@ -1,13 +1,11 @@
-import React from 'react'
+import { getButtonClasses } from './button.variants'
 import { ButtonProps } from './button.types'
-import { variantClasses, sizeClasses } from './button.variants'
 
-export const Button = ({ variant = 'primary', size = 'md', children, className = '', ...props }: ButtonProps) => {
+export const Button = ({ variant = 'primary', size = 'medium', disabled = false, children }: ButtonProps) => {
+  const buttonClasses = getButtonClasses(variant, size)
+
   return (
-    <button
-      className={`cursor-pointer rounded font-medium transition-colors ${variantClasses[variant]} ${sizeClasses[size]} ${className} bg-primary-600`}
-      {...props}
-    >
+    <button className={`${buttonClasses} text-fill-primary`} disabled={disabled}>
       {children}
     </button>
   )
