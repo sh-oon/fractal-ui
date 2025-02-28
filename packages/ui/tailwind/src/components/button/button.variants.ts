@@ -104,7 +104,5 @@ export const sizeClasses: Record<ButtonSize, string> = {
 export function getButtonClasses(variant: ButtonVariant, size: ButtonSize): string {
   const variantClass = `${buttonVariant[variant].typography} ${buttonVariant[variant].background} ${buttonVariant[variant].border} ${buttonVariant[variant].icon}`
 
-  console.log(sizeClasses[size])
-
   return `${sizeClasses[size]} ${variantClass} rounded rounded-xs transition-colors duration-200 focus:outline-none cursor-pointer disabled:cursor-not-allowed`
 }
