@@ -1,3 +1,4 @@
+import { cx } from '@fractal/utils'
 import { ButtonPadding, ButtonSize, ButtonVariant } from './button.types'
 // import type { SpinnerSize, SpinnerColor } from '../spinner/spinner.types'
 
@@ -62,22 +63,24 @@ export const buttonVariant: Record<
   }
 > = {
   primary: {
-    typography: 'text-on-color disabled:text-disabled',
-    background: 'bg-fill-primary disabled:bg-fill-disabled',
+    typography: 'text-on-color disabled:text-disabled hover:text-on-color-hover active:text-on-color-active',
+    background: 'bg-fill-primary disabled:bg-fill-disabled hover:bg-fill-primary-hover active:bg-fill-primary-active',
     border: 'border border-transparent',
     icon: 'text-on-color',
     // spinnerColor: 'white',
   },
   secondary: {
-    typography: 'text-secondary disabled:text-disabled',
-    background: 'bg-fill-silent disabled:bg-fill-disabled',
+    typography: 'text-secondary disabled:text-disabled hover:text-secondary-hover active:text-secondary-active',
+    background:
+      'bg-fill-silent disabled:bg-fill-disabled hover:bg-fill-surface-contents active:bg-fill-surface-contents',
     border: 'border border-line',
     icon: 'text-primary',
     // spinnerColor: 'default',
   },
   tertiary: {
-    typography: 'text-primary disabled:text-disabled',
-    background: 'bg-fill-surface-contents disabled:bg-fill-disabled',
+    typography: 'text-primary disabled:text-disabled hover:text-primary-hover active:text-primary-active',
+    background:
+      'bg-fill-surface-contents disabled:bg-fill-disabled hover:bg-fill-surface-contents-hover active:bg-fill-surface-contents-active',
     border: 'border border-line',
     icon: 'text-primary',
     // spinnerColor: 'default',
@@ -86,7 +89,13 @@ export const buttonVariant: Record<
 
 // 사이즈별 클래스 조합
 export const sizeClasses: Record<ButtonSize, string> = {
-  large: `${buttonSizes.large.typography} ${buttonSizes.large.height} ${buttonSizes.large.minWidth} ${buttonSizes.large.padding.default}`,
+  // large: `${buttonSizes.large.typography} ${buttonSizes.large.height} ${buttonSizes.large.minWidth} ${buttonSizes.large.padding.default}`,
+  large: cx(
+    buttonSizes.large.typography,
+    buttonSizes.large.height,
+    buttonSizes.large.minWidth,
+    buttonSizes.large.padding.default,
+  ),
   medium: `${buttonSizes.medium.typography} ${buttonSizes.medium.height} ${buttonSizes.medium.minWidth} ${buttonSizes.medium.padding.default}`,
   small: `${buttonSizes.small.typography} ${buttonSizes.small.height} ${buttonSizes.small.minWidth} ${buttonSizes.small.padding.default}`,
   xSmall: `${buttonSizes.xSmall.typography} ${buttonSizes.xSmall.height} ${buttonSizes.xSmall.minWidth} ${buttonSizes.xSmall.padding.default}`,
@@ -94,6 +103,8 @@ export const sizeClasses: Record<ButtonSize, string> = {
 
 export function getButtonClasses(variant: ButtonVariant, size: ButtonSize): string {
   const variantClass = `${buttonVariant[variant].typography} ${buttonVariant[variant].background} ${buttonVariant[variant].border} ${buttonVariant[variant].icon}`
+
+  console.log(sizeClasses[size])
 
   return `${sizeClasses[size]} ${variantClass} rounded rounded-xs transition-colors duration-200 focus:outline-none cursor-pointer disabled:cursor-not-allowed`
 }

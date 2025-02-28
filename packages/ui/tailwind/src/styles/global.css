@@ -422,171 +422,381 @@
   --fractal-semantic-typography-text-xxs-medium-font-size: var(--fractal-scale-dimension-font-size-25);
 }
 
-@layer components {
-  /* 텍스트 색상 유틸리티 */
-  .text-primary {
-    color: var(--fractal-semantic-color-text-primary);
-  }
-  .text-primary:hover {
-    color: var(--fractal-semantic-color-text-primary-hover);
-  }
-  .text-primary:active {
-    color: var(--fractal-semantic-color-text-primary-pressed);
-  }
-  .text-secondary {
-    color: var(--fractal-semantic-color-text-secondary);
-  }
-  .text-secondary:hover {
-    color: var(--fractal-semantic-color-text-secondary-hover);
-  }
-  .text-secondary:active {
-    color: var(--fractal-semantic-color-text-secondary-pressed);
-  }
-  .text-tertiary {
-    color: var(--fractal-semantic-color-text-tertiary);
-  }
-  .text-on-color {
-    color: var(--fractal-semantic-color-text-on-color);
-  }
-  .text-disabled {
-    color: var(--fractal-semantic-color-text-disabled);
-  }
+@utility text-primary {
+  color: var(--fractal-semantic-color-text-primary);
+}
 
-  /* 배경 색상 유틸리티 */
-  .bg-default {
-    background-color: var(--fractal-semantic-color-background-default);
-  }
-  .bg-low {
-    background-color: var(--fractal-semantic-color-background-low);
-  }
-  .bg-blockquote {
-    background-color: var(--fractal-semantic-color-background-blockquote);
-  }
+@utility text-primary-hover {
+  color: var(--fractal-semantic-color-text-primary-hover);
+}
 
-  /* 채우기 색상 유틸리티 */
-  .bg-fill-primary {
-    background-color: var(--fractal-semantic-color-fill-primary);
-  }
-  .bg-fill-primary:hover {
-    background-color: var(--fractal-semantic-color-fill-primary-hover);
-  }
-  .bg-fill-primary:active {
-    background-color: var(--fractal-semantic-color-fill-primary-pressed);
-  }
-  .bg-fill-silent {
-    background-color: var(--fractal-semantic-color-fill-silent);
-  }
-  .bg-fill-silent:hover {
-    background-color: var(--fractal-semantic-color-fill-silent-hover);
-  }
-  .bg-fill-silent:active {
-    background-color: var(--fractal-semantic-color-fill-silent-pressed);
-  }
-  .bg-fill-disabled {
-    background-color: var(--fractal-semantic-color-fill-disabled);
-  }
-  .bg-fill-surface-contents {
-    background-color: var(--fractal-semantic-color-fill-surface-contents);
-  }
+@utility text-primary-active {
+  color: var(--fractal-semantic-color-text-primary-pressed);
+}
 
-  /* 테두리 색상 유틸리티 */
-  .border-line {
-    border-color: var(--fractal-semantic-color-border-line);
-  }
-  .border-divider {
-    border-color: var(--fractal-semantic-color-border-divider);
-  }
-  .border-divider-strong {
-    border-color: var(--fractal-semantic-color-border-divider-strong);
-  }
-  .border-line-hover {
-    border-color: var(--fractal-semantic-color-border-line-hover);
-  }
-  .border-line-disabled {
-    border-color: var(--fractal-semantic-color-border-line-disabled);
-  }
+@utility text-secondary {
+  color: var(--fractal-semantic-color-text-secondary);
+}
 
-  /* 타이포그래피 유틸리티 */
-  .typo-title-xxl {
-    font-family: var(--fractal-semantic-typography-title-xxl-font-family);
-    font-weight: var(--fractal-semantic-typography-title-xxl-font-weight);
-    line-height: var(--fractal-semantic-typography-title-xxl-line-height);
-    font-size: var(--fractal-semantic-typography-title-xxl-font-size);
-  }
-  .typo-title-xxl-bold {
-    font-family: var(--fractal-semantic-typography-title-xxl-bold-font-family);
-    font-weight: var(--fractal-semantic-typography-title-xxl-bold-font-weight);
-    line-height: var(--fractal-semantic-typography-title-xxl-bold-line-height);
-    font-size: var(--fractal-semantic-typography-title-xxl-bold-font-size);
-  }
-  .typo-text-l-bold {
-    font-family: var(--fractal-semantic-typography-text-l-bold-font-family);
-    font-weight: var(--fractal-semantic-typography-text-l-bold-font-weight);
-    line-height: var(--fractal-semantic-typography-text-l-bold-line-height);
-    font-size: var(--fractal-semantic-typography-text-l-bold-font-size);
-  }
-  .typo-text-xs-medium {
-    font-family: var(--fractal-semantic-typography-text-xs-medium-font-family);
-    font-weight: var(--fractal-semantic-typography-text-xs-medium-font-weight);
-    line-height: var(--fractal-semantic-typography-text-xs-medium-line-height);
-    font-size: var(--fractal-semantic-typography-text-xs-medium-font-size);
-  }
-  .typo-text-xs {
-    font-family: var(--fractal-semantic-typography-text-xs-font-family);
-    font-weight: var(--fractal-semantic-typography-text-xs-font-weight);
-    line-height: var(--fractal-semantic-typography-text-xs-line-height);
-    font-size: var(--fractal-semantic-typography-text-xs-font-size);
-  }
+@utility text-secondary-hover {
+  color: var(--fractal-semantic-color-text-secondary-hover);
+}
 
-  /* 간격 유틸리티 */
-  .p-dimension-50 {
-    padding: var(--fractal-scale-dimension-50);
-  }
-  .p-dimension-100 {
-    padding: var(--fractal-scale-dimension-100);
-  }
-  .p-dimension-125 {
-    padding: var(--fractal-scale-dimension-125);
-  }
-  .p-dimension-150 {
-    padding: var(--fractal-scale-dimension-150);
-  }
-  .p-dimension-200 {
-    padding: var(--fractal-scale-dimension-200);
-  }
-  .p-dimension-225 {
-    padding: var(--fractal-scale-dimension-225);
-  }
-  .p-dimension-250 {
-    padding: var(--fractal-scale-dimension-250);
-  }
-  
-  .px-dimension-50 {
-    padding-left: var(--fractal-scale-dimension-50);
-    padding-right: var(--fractal-scale-dimension-50);
-  }
-  .px-dimension-100 {
-    padding-left: var(--fractal-scale-dimension-100);
-    padding-right: var(--fractal-scale-dimension-100);
-  }
-  .px-dimension-125 {
-    padding-left: var(--fractal-scale-dimension-125);
-    padding-right: var(--fractal-scale-dimension-125);
-  }
-  .px-dimension-150 {
-    padding-left: var(--fractal-scale-dimension-150);
-    padding-right: var(--fractal-scale-dimension-150);
-  }
-  .px-dimension-200 {
-    padding-left: var(--fractal-scale-dimension-200);
-    padding-right: var(--fractal-scale-dimension-200);
-  }
-  .px-dimension-225 {
-    padding-left: var(--fractal-scale-dimension-225);
-    padding-right: var(--fractal-scale-dimension-225);
-  }
-  .px-dimension-250 {
-    padding-left: var(--fractal-scale-dimension-250);
-    padding-right: var(--fractal-scale-dimension-250);
-  }
+@utility text-secondary-active {
+  color: var(--fractal-semantic-color-text-secondary-pressed);
+}
+
+@utility text-tertiary {
+  color: var(--fractal-semantic-color-text-tertiary);
+}
+
+@utility text-tertiary-hover {
+  color: var(--fractal-semantic-color-text-tertiary-hover);
+}
+
+@utility text-tertiary-active {
+  color: var(--fractal-semantic-color-text-tertiary-pressed);
+}
+
+@utility text-on-color {
+  color: var(--fractal-semantic-color-text-on-color);
+}
+
+@utility text-disabled {
+  color: var(--fractal-semantic-color-text-disabled);
+}
+
+@utility bg-default {
+  background-color: var(--fractal-semantic-color-background-default);
+}
+
+@utility bg-low {
+  background-color: var(--fractal-semantic-color-background-low);
+}
+
+@utility bg-blockquote {
+  background-color: var(--fractal-semantic-color-background-blockquote);
+}
+
+@utility bg-fill-primary {
+  background-color: var(--fractal-semantic-color-fill-primary);
+}
+
+@utility bg-fill-primary-hover {
+  background-color: var(--fractal-semantic-color-fill-primary-hover);
+}
+
+@utility bg-fill-primary-active {
+  background-color: var(--fractal-semantic-color-fill-primary-pressed);
+}
+
+@utility bg-fill-silent {
+  background-color: var(--fractal-semantic-color-fill-silent);
+}
+
+@utility bg-fill-silent-hover {
+  background-color: var(--fractal-semantic-color-fill-silent-hover);
+}
+
+@utility bg-fill-silent-active {
+  background-color: var(--fractal-semantic-color-fill-silent-pressed);
+}
+
+@utility bg-fill-disabled {
+  background-color: var(--fractal-semantic-color-fill-disabled);
+}
+
+@utility bg-fill-surface-contents {
+  background-color: var(--fractal-semantic-color-fill-surface-contents);
+}
+
+@utility border-line {
+  border-color: var(--fractal-semantic-color-border-line);
+}
+
+@utility border-divider {
+  border-color: var(--fractal-semantic-color-border-divider);
+}
+
+@utility border-divider-strong {
+  border-color: var(--fractal-semantic-color-border-divider-strong);
+}
+
+@utility border-line-hover {
+  border-color: var(--fractal-semantic-color-border-line-hover);
+}
+
+@utility border-line-disabled {
+  border-color: var(--fractal-semantic-color-border-line-disabled);
+}
+
+@utility typo-title-xxl {
+  font-family: var(--fractal-semantic-typography-title-xxl-font-family);
+  font-weight: var(--fractal-semantic-typography-title-xxl-font-weight);
+  line-height: var(--fractal-semantic-typography-title-xxl-line-height);
+  font-size: var(--fractal-semantic-typography-title-xxl-font-size);
+}
+
+@utility typo-title-xxl-bold {
+  font-family: var(--fractal-semantic-typography-title-xxl-bold-font-family);
+  font-weight: var(--fractal-semantic-typography-title-xxl-bold-font-weight);
+  line-height: var(--fractal-semantic-typography-title-xxl-bold-line-height);
+  font-size: var(--fractal-semantic-typography-title-xxl-bold-font-size);
+}
+
+@utility typo-title-xxl-medium {
+  font-family: var(--fractal-semantic-typography-title-xxl-medium-font-family);
+  font-weight: var(--fractal-semantic-typography-title-xxl-medium-font-weight);
+  line-height: var(--fractal-semantic-typography-title-xxl-medium-line-height);
+  font-size: var(--fractal-semantic-typography-title-xxl-medium-font-size);
+}
+@utility typo-title-xl {
+  font-family: var(--fractal-semantic-typography-title-xl-font-family);
+  font-weight: var(--fractal-semantic-typography-title-xl-font-weight);
+  line-height: var(--fractal-semantic-typography-title-xl-line-height);
+  font-size: var(--fractal-semantic-typography-title-xl-font-size);
+}
+@utility typo-title-xl-bold {
+  font-family: var(--fractal-semantic-typography-title-xl-bold-font-family);
+  font-weight: var(--fractal-semantic-typography-title-xl-bold-font-weight);
+  line-height: var(--fractal-semantic-typography-title-xl-bold-line-height);
+  font-size: var(--fractal-semantic-typography-title-xl-bold-font-size);
+}
+@utility typo-title-xl-medium {
+  font-family: var(--fractal-semantic-typography-title-xl-medium-font-family);
+  font-weight: var(--fractal-semantic-typography-title-xl-medium-font-weight);
+  line-height: var(--fractal-semantic-typography-title-xl-medium-line-height);
+  font-size: var(--fractal-semantic-typography-title-xl-medium-font-size);
+}
+@utility typo-title-l {
+  font-family: var(--fractal-semantic-typography-title-l-font-family);
+  font-weight: var(--fractal-semantic-typography-title-l-font-weight);
+  line-height: var(--fractal-semantic-typography-title-l-line-height);
+  font-size: var(--fractal-semantic-typography-title-l-font-size);
+}
+@utility typo-title-l-bold {
+  font-family: var(--fractal-semantic-typography-title-l-bold-font-family);
+  font-weight: var(--fractal-semantic-typography-title-l-bold-font-weight);
+  line-height: var(--fractal-semantic-typography-title-l-bold-line-height);
+  font-size: var(--fractal-semantic-typography-title-l-bold-font-size);
+}
+@utility typo-title-l-medium {
+  font-family: var(--fractal-semantic-typography-title-l-medium-font-family);
+  font-weight: var(--fractal-semantic-typography-title-l-medium-font-weight);
+  line-height: var(--fractal-semantic-typography-title-l-medium-line-height);
+  font-size: var(--fractal-semantic-typography-title-l-medium-font-size);
+}
+@utility typo-title-m {
+  font-family: var(--fractal-semantic-typography-title-m-font-family);
+  font-weight: var(--fractal-semantic-typography-title-m-font-weight);
+  line-height: var(--fractal-semantic-typography-title-m-line-height);
+  font-size: var(--fractal-semantic-typography-title-m-font-size);
+}
+@utility typo-title-m-bold {
+  font-family: var(--fractal-semantic-typography-title-m-bold-font-family);
+  font-weight: var(--fractal-semantic-typography-title-m-bold-font-weight);
+  line-height: var(--fractal-semantic-typography-title-m-bold-line-height);
+  font-size: var(--fractal-semantic-typography-title-m-bold-font-size);
+}
+@utility typo-title-m-medium {
+  font-family: var(--fractal-semantic-typography-title-m-medium-font-family);
+  font-weight: var(--fractal-semantic-typography-title-m-medium-font-weight);
+  line-height: var(--fractal-semantic-typography-title-m-medium-line-height);
+  font-size: var(--fractal-semantic-typography-title-m-medium-font-size);
+}
+@utility typo-title-s {
+  font-family: var(--fractal-semantic-typography-title-s-font-family);
+  font-weight: var(--fractal-semantic-typography-title-s-font-weight);
+  line-height: var(--fractal-semantic-typography-title-s-line-height);
+  font-size: var(--fractal-semantic-typography-title-s-font-size);
+}
+@utility typo-title-s-bold {
+  font-family: var(--fractal-semantic-typography-title-s-bold-font-family);
+  font-weight: var(--fractal-semantic-typography-title-s-bold-font-weight);
+  line-height: var(--fractal-semantic-typography-title-s-bold-line-height);
+  font-size: var(--fractal-semantic-typography-title-s-bold-font-size);
+}
+@utility typo-title-s-medium {
+  font-family: var(--fractal-semantic-typography-title-s-medium-font-family);
+  font-weight: var(--fractal-semantic-typography-title-s-medium-font-weight);
+  line-height: var(--fractal-semantic-typography-title-s-medium-line-height);
+  font-size: var(--fractal-semantic-typography-title-s-medium-font-size);
+}
+@utility typo-title-xs {
+  font-family: var(--fractal-semantic-typography-title-xs-font-family);
+  font-weight: var(--fractal-semantic-typography-title-xs-font-weight);
+  line-height: var(--fractal-semantic-typography-title-xs-line-height);
+  font-size: var(--fractal-semantic-typography-title-xs-font-size);
+}
+@utility typo-title-xs-bold {
+  font-family: var(--fractal-semantic-typography-title-xs-bold-font-family);
+  font-weight: var(--fractal-semantic-typography-title-xs-bold-font-weight);
+  line-height: var(--fractal-semantic-typography-title-xs-bold-line-height);
+  font-size: var(--fractal-semantic-typography-title-xs-bold-font-size);
+}
+@utility typo-title-xs-medium {
+  font-family: var(--fractal-semantic-typography-title-xs-medium-font-family);
+  font-weight: var(--fractal-semantic-typography-title-xs-medium-font-weight);
+  line-height: var(--fractal-semantic-typography-title-xs-medium-line-height);
+  font-size: var(--fractal-semantic-typography-title-xs-medium-font-size);
+}
+@utility typo-text-xxl {
+  font-family: var(--fractal-semantic-typography-text-xxl-font-family);
+  font-weight: var(--fractal-semantic-typography-text-xxl-font-weight);
+  line-height: var(--fractal-semantic-typography-text-xxl-line-height);
+  font-size: var(--fractal-semantic-typography-text-xxl-font-size);
+}
+@utility typo-text-xxl-bold {
+  font-family: var(--fractal-semantic-typography-text-xxl-bold-font-family);
+  font-weight: var(--fractal-semantic-typography-text-xxl-bold-font-weight);
+  line-height: var(--fractal-semantic-typography-text-xxl-bold-line-height);
+  font-size: var(--fractal-semantic-typography-text-xxl-bold-font-size);
+}
+@utility typo-text-xxl-medium {
+  font-family: var(--fractal-semantic-typography-text-xxl-medium-font-family);
+  font-weight: var(--fractal-semantic-typography-text-xxl-medium-font-weight);
+  line-height: var(--fractal-semantic-typography-text-xxl-medium-line-height);
+  font-size: var(--fractal-semantic-typography-text-xxl-medium-font-size);
+}
+@utility typo-text-xl {
+  font-family: var(--fractal-semantic-typography-text-xl-font-family);
+  font-weight: var(--fractal-semantic-typography-text-xl-font-weight);
+  line-height: var(--fractal-semantic-typography-text-xl-line-height);
+  font-size: var(--fractal-semantic-typography-text-xl-font-size);
+}
+@utility typo-text-xl-bold {
+  font-family: var(--fractal-semantic-typography-text-xl-bold-font-family);
+  font-weight: var(--fractal-semantic-typography-text-xl-bold-font-weight);
+  line-height: var(--fractal-semantic-typography-text-xl-bold-line-height);
+  font-size: var(--fractal-semantic-typography-text-xl-bold-font-size);
+}
+@utility typo-text-xl-medium {
+  font-family: var(--fractal-semantic-typography-text-xl-medium-font-family);
+  font-weight: var(--fractal-semantic-typography-text-xl-medium-font-weight);
+  line-height: var(--fractal-semantic-typography-text-xl-medium-line-height);
+  font-size: var(--fractal-semantic-typography-text-xl-medium-font-size);
+}
+@utility typo-text-l {
+  font-family: var(--fractal-semantic-typography-text-l-font-family);
+  font-weight: var(--fractal-semantic-typography-text-l-font-weight);
+  line-height: var(--fractal-semantic-typography-text-l-line-height);
+  font-size: var(--fractal-semantic-typography-text-l-font-size);
+}
+@utility typo-text-l-bold {
+  font-family: var(--fractal-semantic-typography-text-l-bold-font-family);
+  font-weight: var(--fractal-semantic-typography-text-l-bold-font-weight);
+  line-height: var(--fractal-semantic-typography-text-l-bold-line-height);
+  font-size: var(--fractal-semantic-typography-text-l-bold-font-size);
+}
+@utility typo-text-l-medium {
+  font-family: var(--fractal-semantic-typography-text-l-medium-font-family);
+  font-weight: var(--fractal-semantic-typography-text-l-medium-font-weight);
+  line-height: var(--fractal-semantic-typography-text-l-medium-line-height);
+  font-size: var(--fractal-semantic-typography-text-l-medium-font-size);
+}
+@utility typo-text-m {
+  font-family: var(--fractal-semantic-typography-text-m-font-family);
+  font-weight: var(--fractal-semantic-typography-text-m-font-weight);
+  line-height: var(--fractal-semantic-typography-text-m-line-height);
+  font-size: var(--fractal-semantic-typography-text-m-font-size);
+}
+@utility typo-text-m-bold {
+  font-family: var(--fractal-semantic-typography-text-m-bold-font-family);
+  font-weight: var(--fractal-semantic-typography-text-m-bold-font-weight);
+  line-height: var(--fractal-semantic-typography-text-m-bold-line-height);
+  font-size: var(--fractal-semantic-typography-text-m-bold-font-size);
+}
+@utility typo-text-m-medium {
+  font-family: var(--fractal-semantic-typography-text-m-medium-font-family);
+  font-weight: var(--fractal-semantic-typography-text-m-medium-font-weight);
+  line-height: var(--fractal-semantic-typography-text-m-medium-line-height);
+  font-size: var(--fractal-semantic-typography-text-m-medium-font-size);
+}
+@utility typo-text-s {
+  font-family: var(--fractal-semantic-typography-text-s-font-family);
+  font-weight: var(--fractal-semantic-typography-text-s-font-weight);
+  line-height: var(--fractal-semantic-typography-text-s-line-height);
+  font-size: var(--fractal-semantic-typography-text-s-font-size);
+}
+@utility typo-text-s-bold {
+  font-family: var(--fractal-semantic-typography-text-s-bold-font-family);
+  font-weight: var(--fractal-semantic-typography-text-s-bold-font-weight);
+  line-height: var(--fractal-semantic-typography-text-s-bold-line-height);
+  font-size: var(--fractal-semantic-typography-text-s-bold-font-size);
+}
+@utility typo-text-s-medium {
+  font-family: var(--fractal-semantic-typography-text-s-medium-font-family);
+  font-weight: var(--fractal-semantic-typography-text-s-medium-font-weight);
+  line-height: var(--fractal-semantic-typography-text-s-medium-line-height);
+  font-size: var(--fractal-semantic-typography-text-s-medium-font-size);
+}
+@utility typo-text-xs {
+  font-family: var(--fractal-semantic-typography-text-xs-font-family);
+  font-weight: var(--fractal-semantic-typography-text-xs-font-weight);
+  line-height: var(--fractal-semantic-typography-text-xs-line-height);
+  font-size: var(--fractal-semantic-typography-text-xs-font-size);
+}
+@utility typo-text-xs-bold {
+  font-family: var(--fractal-semantic-typography-text-xs-bold-font-family);
+  font-weight: var(--fractal-semantic-typography-text-xs-bold-font-weight);
+  line-height: var(--fractal-semantic-typography-text-xs-bold-line-height);
+  font-size: var(--fractal-semantic-typography-text-xs-bold-font-size);
+}
+@utility typo-text-xs-medium {
+  font-family: var(--fractal-semantic-typography-text-xs-medium-font-family);
+  font-weight: var(--fractal-semantic-typography-text-xs-medium-font-weight);
+  line-height: var(--fractal-semantic-typography-text-xs-medium-line-height);
+  font-size: var(--fractal-semantic-typography-text-xs-medium-font-size);
+}
+
+/* 간격 유틸리티 */
+@utility p-dimension-50 {
+  padding: var(--fractal-scale-dimension-50);
+}
+@utility p-dimension-100 {
+  padding: var(--fractal-scale-dimension-100);
+}
+@utility p-dimension-125 {
+  padding: var(--fractal-scale-dimension-125);
+}
+@utility p-dimension-150 {
+  padding: var(--fractal-scale-dimension-150);
+}
+@utility p-dimension-200 {
+  padding: var(--fractal-scale-dimension-200);
+}
+@utility p-dimension-225 {
+  padding: var(--fractal-scale-dimension-225);
+}
+@utility p-dimension-250 {
+  padding: var(--fractal-scale-dimension-250);
+}
+
+@utility px-dimension-50 {
+  padding-left: var(--fractal-scale-dimension-50);
+  padding-right: var(--fractal-scale-dimension-50);
+}
+@utility px-dimension-100 {
+  padding-left: var(--fractal-scale-dimension-100);
+  padding-right: var(--fractal-scale-dimension-100);
+}
+@utility px-dimension-125 {
+  padding-left: var(--fractal-scale-dimension-125);
+  padding-right: var(--fractal-scale-dimension-125);
+}
+@utility px-dimension-150 {
+  padding-left: var(--fractal-scale-dimension-150);
+  padding-right: var(--fractal-scale-dimension-150);
+}
+@utility px-dimension-200 {
+  padding-left: var(--fractal-scale-dimension-200);
+  padding-right: var(--fractal-scale-dimension-200);
+}
+@utility px-dimension-225 {
+  padding-left: var(--fractal-scale-dimension-225);
+  padding-right: var(--fractal-scale-dimension-225);
+}
+@utility px-dimension-250 {
+  padding-left: var(--fractal-scale-dimension-250);
+  padding-right: var(--fractal-scale-dimension-250);
 }
