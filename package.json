@@ -78,12 +78,10 @@
   "engines": {
     "node": ">=18"
   },
-  "workspaces": {
-    "packages": [
-      "apps/*",
-      "packages/*",
-      "packages/ui/*"
-    ]
-  },
+  "workspaces": [
+    "apps/**",
+    "packages/**",
+    "packages/ui/**"
+  ],
   "packageManager": "yarn@4.6.0"
 }
