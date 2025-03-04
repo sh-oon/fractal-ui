@@ -89,20 +89,42 @@ export const buttonVariant: Record<
 
 // 사이즈별 클래스 조합
 export const sizeClasses: Record<ButtonSize, string> = {
-  // large: `${buttonSizes.large.typography} ${buttonSizes.large.height} ${buttonSizes.large.minWidth} ${buttonSizes.large.padding.default}`,
   large: cx(
     buttonSizes.large.typography,
     buttonSizes.large.height,
     buttonSizes.large.minWidth,
     buttonSizes.large.padding.default,
   ),
-  medium: `${buttonSizes.medium.typography} ${buttonSizes.medium.height} ${buttonSizes.medium.minWidth} ${buttonSizes.medium.padding.default}`,
-  small: `${buttonSizes.small.typography} ${buttonSizes.small.height} ${buttonSizes.small.minWidth} ${buttonSizes.small.padding.default}`,
-  xSmall: `${buttonSizes.xSmall.typography} ${buttonSizes.xSmall.height} ${buttonSizes.xSmall.minWidth} ${buttonSizes.xSmall.padding.default}`,
+  medium: cx(
+    buttonSizes.medium.typography,
+    buttonSizes.medium.height,
+    buttonSizes.medium.minWidth,
+    buttonSizes.medium.padding.default,
+  ),
+  small: cx(
+    buttonSizes.small.typography,
+    buttonSizes.small.height,
+    buttonSizes.small.minWidth,
+    buttonSizes.small.padding.default,
+  ),
+  xSmall: cx(
+    buttonSizes.xSmall.typography,
+    buttonSizes.xSmall.height,
+    buttonSizes.xSmall.minWidth,
+    buttonSizes.xSmall.padding.default,
+  ),
 }
 
 export function getButtonClasses(variant: ButtonVariant, size: ButtonSize): string {
-  const variantClass = `${buttonVariant[variant].typography} ${buttonVariant[variant].background} ${buttonVariant[variant].border} ${buttonVariant[variant].icon}`
+  const commonClasses =
+    'rounded rounded-xs transition-colors duration-200 focus:outline-none cursor-pointer disabled:cursor-not-allowed'
 
-  return `${sizeClasses[size]} ${variantClass} rounded rounded-xs transition-colors duration-200 focus:outline-none cursor-pointer disabled:cursor-not-allowed`
+  const variantClass = cx(
+    buttonVariant[variant].typography,
+    buttonVariant[variant].background,
+    buttonVariant[variant].border,
+    buttonVariant[variant].icon,
+  )
+
+  return cx(sizeClasses[size], variantClass, commonClasses)
 }
