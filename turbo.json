@@ -6,6 +6,10 @@
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": ["dist/**", ".next/**", "!.next/cache/**"]
     },
+    "@fractal/ui-tailwind#build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", "lib/**", "build/**"]
+    },
     "dev": {
       "cache": false,
       "persistent": true,

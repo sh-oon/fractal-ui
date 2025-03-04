@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { Test } from '@/feature/test/ui/test'
-import { Button } from '@fractal/ui-tailwind'
 
 export default function Home() {
   return (
