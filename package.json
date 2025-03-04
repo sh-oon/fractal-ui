@@ -72,7 +72,7 @@
     "react-dom": "*",
     "storybook": "*",
     "tailwindcss": "*",
-    "turbo": "*",
+    "turbo": "^2.4.4",
     "typescript": "*"
   },
   "engines": {

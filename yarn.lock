@@ -1746,6 +1746,29 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@fractal/docs@workspace:apps/docs":
+  version: 0.0.0-use.local
+  resolution: "@fractal/docs@workspace:apps/docs"
+  dependencies:
+    "@eslint/eslintrc": "npm:^3"
+    "@fractal/typescript-config": "workspace:*"
+    "@fractal/ui-reset": "workspace:*"
+    "@fractal/ui-tailwind": "workspace:*"
+    "@fractal/ui-tokens": "workspace:*"
+    "@types/node": "npm:^20"
+    "@types/react": "npm:^19"
+    "@types/react-dom": "npm:^19"
+    eslint: "npm:*"
+    eslint-config-next: "npm:15.1.7"
+    next: "npm:*"
+    postcss: "npm:*"
+    react: "npm:*"
+    react-dom: "npm:*"
+    tailwindcss: "npm:*"
+    typescript: "npm:*"
+  languageName: unknown
+  linkType: soft
+
 "@fractal/eslint-config@npm:*, @fractal/eslint-config@workspace:*, @fractal/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@fractal/eslint-config@workspace:packages/eslint-config"
@@ -1814,7 +1837,7 @@ __metadata:
     react-dom: "npm:*"
     storybook: "npm:*"
     tailwindcss: "npm:*"
-    turbo: "npm:*"
+    turbo: "npm:^2.4.4"
     typescript: "npm:*"
   languageName: unknown
   linkType: soft
@@ -5833,29 +5856,6 @@ __metadata:
   checksum: 10c0/dcac00920a4d503e38bb64001acb19df4efc14536ada475725e12f52c16777afdee4db827f55f13a908ee7efc0cb282e2e3dbaeeb98c0993dd93d1802d3bf00c
   languageName: node
   linkType: hard
-
-"docs@workspace:apps/docs":
-  version: 0.0.0-use.local
-  resolution: "docs@workspace:apps/docs"
-  dependencies:
-    "@eslint/eslintrc": "npm:^3"
-    "@fractal/typescript-config": "workspace:*"
-    "@fractal/ui-reset": "workspace:*"
-    "@fractal/ui-tailwind": "workspace:*"
-    "@fractal/ui-tokens": "workspace:*"
-    "@types/node": "npm:^20"
-    "@types/react": "npm:^19"
-    "@types/react-dom": "npm:^19"
-    eslint: "npm:*"
-    eslint-config-next: "npm:15.1.7"
-    next: "npm:*"
-    postcss: "npm:*"
-    react: "npm:*"
-    react-dom: "npm:*"
-    tailwindcss: "npm:*"
-    typescript: "npm:*"
-  languageName: unknown
-  linkType: soft
 
 "doctrine@npm:^2.1.0":
   version: 2.1.0
