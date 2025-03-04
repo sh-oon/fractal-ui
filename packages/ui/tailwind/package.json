@@ -16,11 +16,11 @@
     "tailwind-variants": "^0.3.1"
   },
   "devDependencies": {
-    "@fractal/eslint-config": "*",
-    "@fractal/storybook-config": "*",
-    "@fractal/typescript-config": "*",
-    "@fractal/ui-reset": "*",
-    "@fractal/ui-tokens": "*",
+    "@fractal/eslint-config": "workspace:*",
+    "@fractal/storybook-config": "workspace:*",
+    "@fractal/typescript-config": "workspace:*",
+    "@fractal/ui-reset": "workspace:*",
+    "@fractal/ui-tokens": "workspace:*",
     "@storybook/addon-actions": "*",
     "@storybook/addon-essentials": "*",
     "@storybook/addon-interactions": "*",
