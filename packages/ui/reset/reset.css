@@ -208,6 +208,8 @@ html.layer_scrolling body {
 } */
 
 @import 'tailwindcss';
+@source './reset.css';
+@source '../tailwind/src/components';
 
 @theme {
   /* scale-color */

@@ -115,9 +115,11 @@ export const sizeClasses: Record<ButtonSize, string> = {
   ),
 }
 
-export function getButtonClasses(variant: ButtonVariant, size: ButtonSize): string {
+export function getButtonClasses(variant: ButtonVariant, size: ButtonSize, stretch?: boolean): string {
   const commonClasses =
-    'rounded rounded-xs transition-colors duration-200 focus:outline-none cursor-pointer disabled:cursor-not-allowed'
+    'rounded rounded-xs transition-colors duration-200 focus:outline-none cursor-pointer disabled:cursor-not-allowed min-w-fit'
+
+  const stretchClasses = stretch ? 'flex-1' : ''
 
   const variantClass = cx(
     buttonVariant[variant].typography,
@@ -126,5 +128,5 @@ export function getButtonClasses(variant: ButtonVariant, size: ButtonSize): stri
     buttonVariant[variant].icon,
   )
 
-  return cx(sizeClasses[size], variantClass, commonClasses)
+  return cx(sizeClasses[size], variantClass, commonClasses, stretchClasses)
 }

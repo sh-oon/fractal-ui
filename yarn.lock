@@ -5839,6 +5839,7 @@ __metadata:
   resolution: "docs@workspace:apps/docs"
   dependencies:
     "@eslint/eslintrc": "npm:^3"
+    "@fractal/typescript-config": "workspace:*"
     "@fractal/ui-reset": "workspace:*"
     "@fractal/ui-tailwind": "workspace:*"
     "@fractal/ui-tokens": "workspace:*"
@@ -5847,10 +5848,10 @@ __metadata:
     "@types/react-dom": "npm:^19"
     eslint: "npm:*"
     eslint-config-next: "npm:15.1.7"
-    next: "npm:15.1.7"
+    next: "npm:*"
     postcss: "npm:*"
-    react: "npm:^19.0.0"
-    react-dom: "npm:^19.0.0"
+    react: "npm:*"
+    react-dom: "npm:*"
     tailwindcss: "npm:*"
     typescript: "npm:*"
   languageName: unknown

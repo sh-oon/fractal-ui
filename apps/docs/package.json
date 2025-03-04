@@ -9,12 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.1.7",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "*",
+    "react": "*",
+    "react-dom": "*"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@fractal/typescript-config": "workspace:*",
     "@fractal/ui-reset": "workspace:*",
     "@fractal/ui-tailwind": "workspace:*",
     "@fractal/ui-tokens": "workspace:*",
