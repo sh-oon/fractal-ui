@@ -50,7 +50,7 @@ importers:
         specifier: ^8.5.6
         version: 8.6.3(storybook@8.6.3)
       '@storybook/blocks':
-        specifier: '*'
+        specifier: ^8.5.6
         version: 8.6.3(react-dom@19.0.0)(react@19.0.0)(storybook@8.6.3)
       '@storybook/nextjs':
         specifier: ^8.5.6
@@ -59,7 +59,7 @@ importers:
         specifier: ^8.5.6
         version: 8.6.3(@storybook/test@8.6.3)(react-dom@19.0.0)(react@19.0.0)(storybook@8.6.3)(typescript@5.7.3)
       '@storybook/test':
-        specifier: '*'
+        specifier: ^8.5.6
         version: 8.6.3(storybook@8.6.3)
       '@tailwindcss/postcss':
         specifier: ^4.0.9
