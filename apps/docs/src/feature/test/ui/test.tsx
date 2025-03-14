@@ -14,6 +14,12 @@ export const Test = () => {
       <Button variant='tertiary' size='large' stretch onClick={() => alert('clicked')}>
         Tertiary
       </Button>
+      <Button variant='primary' pending size='large' stretch onClick={() => alert('clicked')}>
+        Primary
+      </Button>
+      <Button variant='secondary' size='large' disabled stretch onClick={() => alert('clicked')}>
+        Tertiary
+      </Button>
     </div>
   )
 }

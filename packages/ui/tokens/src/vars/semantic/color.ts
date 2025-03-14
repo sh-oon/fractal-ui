@@ -1,33 +1,14 @@
 export const text = {
-	primary: "var(--fractal-semantic-color-text-primary)",
-	primaryHover: "var(--fractal-semantic-color-text-primary-hover)",
-	primaryPressed: "var(--fractal-semantic-color-text-primary-pressed)",
-
-	secondary: "var(--fractal-semantic-color-text-secondary)",
-	secondaryHover: "var(--fractal-semantic-color-text-secondary-hover)",
-	secondaryPressed: "var(--fractal-semantic-color-text-secondary-pressed)",
-
-	tertiary: "var(--fractal-semantic-color-text-tertiary)",
-	tertiaryHover: "var(--fractal-semantic-color-text-tertiary-hover)",
-	tertiaryPressed: "var(--fractal-semantic-color-text-tertiary-pressed)",
-
-	interactive: "var(--fractal-semantic-color-text-interactive)",
-	interactiveHover: "var(--fractal-semantic-color-text-interactive-hover)",
-	interactivePressed: "var(--fractal-semantic-color-text-interactive-pressed)",
-
-	accent: "var(--fractal-semantic-color-text-accent)",
-	disabled: "var(--fractal-semantic-color-text-disabled)",
-
-	negative: "var(--fractal-semantic-color-text-negative)",
-	negativeHover: "var(--fractal-semantic-color-text-negative-hover)",
-	negativePressed: "var(--fractal-semantic-color-text-negative-pressed)",
-
-	onColor: "var(--fractal-semantic-color-text-on-color)",
-
-	onWhite: "var(--fractal-semantic-color-text-on-white)",
-	onWhiteHover: "var(--fractal-semantic-color-text-on-white-hover)",
-	onWhitePressed: "var(--fractal-semantic-color-text-on-white-pressed)",
-};
+  primary: 'text-primary hover:text-primary-hover active:text-primary-active',
+  secondary: 'text-secondary hover:text-secondary-hover active:text-secondary-active',
+  tertiary: 'text-tertiary hover:text-tertiary-hover active:text-tertiary-active',
+  interactive: 'text-interactive hover:text-interactive-hover active:text-interactive-active',
+  accent: 'text-accent hover:text-accent-hover active:text-accent-active',
+  disabled: 'text-disabled',
+  negative: 'text-negative hover:text-negative-hover active:text-negative-active',
+  onColor: 'text-on-color hover:text-on-color-hover active:text-on-color-active',
+  onWhite: 'text-on-white hover:text-on-white-hover active:text-on-white-active',
+}
 
 export const background = {
 	low: "var(--fractal-semantic-color-background-low)",
